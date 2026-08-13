@@ -1,0 +1,631 @@
+{
+    "$__mpe_config_通用关卡查找模板": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1786376787152,
+            "isModifiedExternally": false,
+            "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\通用关卡查找模板.json",
+            "savedViewport": {
+                "x": -1889,
+                "y": -104,
+                "zoom": 1
+            },
+            "filename": "通用关卡查找模板",
+            "version": "v1.7.6"
+        }
+    },
+    "$__mpe_external_大厅界面_通用关卡查找模板": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5452,
+                "y": 431
+            }
+        }
+    },
+    "使用方法：点击该节点查看": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "放大",
+                    "按住shift",
+                    "把除了本节点外的其他节点选进去",
+                    "部分导出",
+                    "然后导入即可",
+                    "如果想要粘贴到已经设置的文件中只能从代码层面手动复制粘贴\n"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 49,
+                "y": 11
+            }
+        }
+    },
+    "向上滑动": {
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    80,
+                    104,
+                    1,
+                    1
+                ],
+                "end": [
+                    [
+                        80,
+                        514,
+                        1,
+                        1
+                    ]
+                ],
+                "end_hold": [
+                    500
+                ],
+                "duration": 460
+            }
+        },
+        "post_delay": 700,
+        "timeout": 60000,
+        "next": [
+            "查找数字",
+            "已经滑动到最上方",
+            "向上滑动"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1927,
+                "y": 338
+            }
+        }
+    },
+    "向下滑动": {
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    80,
+                    514,
+                    1,
+                    1
+                ],
+                "end": [
+                    [
+                        80,
+                        104,
+                        1,
+                        1
+                    ]
+                ],
+                "end_hold": [
+                    500
+                ],
+                "duration": 460
+            }
+        },
+        "post_delay": 700,
+        "timeout": 60000,
+        "next": [
+            "查找数字",
+            "向下滑动"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2587,
+                "y": 310
+            }
+        }
+    },
+    "已经滑动到最上方": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    52,
+                    86,
+                    70,
+                    40
+                ],
+                "expected": [
+                    "乾1"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "向下滑动"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2252,
+                "y": 355
+            }
+        }
+    },
+    "整理手牌": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    26,
+                    634,
+                    46,
+                    26
+                ],
+                "expected": [
+                    "整理"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    38,
+                    625,
+                    23,
+                    17
+                ]
+            }
+        },
+        "next": [
+            "整理手牌",
+            "自定义后续操作"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3541,
+                "y": 709
+            }
+        }
+    },
+    "查找数字": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    36,
+                    50,
+                    105,
+                    527
+                ],
+                "expected": [
+                    "输入想要的关卡"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1111,
+        "next": [
+            "点击开始",
+            "查找数字"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2892,
+                "y": 328
+            }
+        }
+    },
+    "点击开始": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    878,
+                    315,
+                    27,
+                    22
+                ],
+                "expected": [
+                    "输入想要的关卡"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击开始",
+            "整理手牌"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3221,
+                "y": 709
+            }
+        }
+    },
+    "确认打开关卡列表": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    39,
+                    606,
+                    119,
+                    35
+                ],
+                "expected": [
+                    "挑战进度"
+                ]
+            }
+        },
+        "next": [
+            "查找数字",
+            "向上滑动"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1612,
+                "y": 519
+            }
+        }
+    },
+    "自定义后续操作": {
+        "next": [
+            "返回列表"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3861,
+                "y": 786
+            }
+        }
+    },
+    "进入关卡选择": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    44,
+                    53,
+                    34,
+                    34
+                ],
+                "expected": [
+                    "解"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1133,
+                    77,
+                    33,
+                    24
+                ]
+            }
+        },
+        "post_delay": 1110,
+        "next": [
+            "确认打开关卡列表",
+            "进入关卡选择"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1292,
+                "y": 474
+            }
+        }
+    },
+    "进入战役": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    845,
+                    603,
+                    59,
+                    46
+                ],
+                "expected": [
+                    "伙伴"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    924,
+                    309,
+                    132,
+                    155
+                ]
+            }
+        },
+        "post_delay": 1110,
+        "next": [
+            "进入战役",
+            "进入武侯讲武"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 332,
+                "y": 474
+            }
+        }
+    },
+    "进入武侯讲武": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    41,
+                    48,
+                    40,
+                    48
+                ],
+                "expected": [
+                    "战"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    810,
+                    327,
+                    94,
+                    75
+                ]
+            }
+        },
+        "post_delay": 1110,
+        "next": [
+            "进入武侯讲武",
+            "进入解卦挑战"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 652,
+                "y": 464
+            }
+        }
+    },
+    "进入解卦挑战": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    40,
+                    52,
+                    38,
+                    37
+                ],
+                "expected": [
+                    "武"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    944,
+                    313,
+                    125,
+                    98
+                ]
+            }
+        },
+        "post_delay": 1110,
+        "next": [
+            "进入解卦挑战",
+            "进入关卡选择"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 972,
+                "y": 464
+            }
+        }
+    },
+    "退出任务": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    810,
+                    111,
+                    75,
+                    41
+                ],
+                "expected": [
+                    "任务"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1202,
+                    78,
+                    52,
+                    27
+                ]
+            }
+        },
+        "next": [
+            "退出任务",
+            "进入战役"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 37,
+                "y": 369
+            }
+        }
+    },
+    "退出武侯演武": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    46,
+                    52,
+                    29,
+                    34
+                ],
+                "expected": [
+                    "武"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1202,
+                    78,
+                    52,
+                    24
+                ]
+            }
+        },
+        "next": [
+            "退出武侯演武",
+            "退回大厅"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4812,
+                "y": 342
+            }
+        }
+    },
+    "退出解卦挑战": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    47,
+                    52,
+                    31,
+                    31
+                ],
+                "expected": [
+                    "解"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1201,
+                    78,
+                    54,
+                    26
+                ]
+            }
+        },
+        "next": [
+            "退出解卦挑战",
+            "退出武侯演武"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4492,
+                "y": 332
+            }
+        }
+    },
+    "退回大厅": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    43,
+                    44,
+                    38,
+                    44
+                ],
+                "expected": [
+                    "战"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1202,
+                    77,
+                    53,
+                    25
+                ]
+            }
+        },
+        "next": [
+            "退回大厅",
+            "大厅界面"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5132,
+                "y": 342
+            }
+        }
+    },
+    "返回列表": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    561,
+                    298,
+                    196,
+                    268
+                ],
+                "expected": [
+                    "失败",
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    577,
+                    510,
+                    129,
+                    31
+                ]
+            }
+        },
+        "post_delay": 1111,
+        "next": [
+            "返回列表",
+            "退出解卦挑战"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4175,
+                "y": 782
+            }
+        }
+    }
+}

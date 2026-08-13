@@ -1,0 +1,1075 @@
+{
+    "$__mpe_config_桃": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1786377842553,
+            "isModifiedExternally": false,
+            "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\桃.json",
+            "savedViewport": {
+                "x": -410,
+                "y": -56,
+                "zoom": 0.4
+            },
+            "filename": "桃",
+            "version": "v1.7.6"
+        }
+    },
+    "$__mpe_external_大厅界面_桃": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5957,
+                "y": 2204
+            }
+        }
+    },
+    "出桃_，桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    635,
+                    443,
+                    36,
+                    25
+                ],
+                "expected": [
+                    "桃"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "出桃_，桃",
+            "结束，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3962,
+                "y": 1270
+            }
+        }
+    },
+    "出桃_，桃_副本188": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    635,
+                    443,
+                    36,
+                    25
+                ],
+                "expected": [
+                    "桃"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "出桃_，桃_副本188",
+            "结束，桃_副本194"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3955,
+                "y": 2081
+            }
+        }
+    },
+    "向上滑动，桃": {
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    80,
+                    104,
+                    1,
+                    1
+                ],
+                "end": [
+                    [
+                        80,
+                        514,
+                        1,
+                        1
+                    ]
+                ],
+                "end_hold": [
+                    500
+                ],
+                "duration": 460
+            }
+        },
+        "post_delay": 500,
+        "timeout": 60000,
+        "next": [
+            "查找数字，桃",
+            "已经滑动到最上方，桃",
+            "向上滑动，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1932,
+                "y": 299
+            }
+        }
+    },
+    "向下滑动，桃": {
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    80,
+                    514,
+                    1,
+                    1
+                ],
+                "end": [
+                    [
+                        80,
+                        104,
+                        1,
+                        1
+                    ]
+                ],
+                "end_hold": [
+                    500
+                ],
+                "duration": 460
+            }
+        },
+        "post_delay": 500,
+        "timeout": 60000,
+        "next": [
+            "查找数字，桃",
+            "向下滑动，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2572,
+                "y": 162
+            }
+        }
+    },
+    "已经滑动到最上方，桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    52,
+                    86,
+                    70,
+                    40
+                ],
+                "expected": [
+                    "乾1"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "向下滑动，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2252,
+                "y": 240
+            }
+        }
+    },
+    "整理手牌，桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    26,
+                    634,
+                    46,
+                    26
+                ],
+                "expected": [
+                    "整理"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    38,
+                    625,
+                    23,
+                    17
+                ]
+            }
+        },
+        "next": [
+            "识别调兵遣将，桃",
+            "整理手牌，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3642,
+                "y": 879
+            }
+        }
+    },
+    "整理手牌，桃_副本189": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    26,
+                    634,
+                    46,
+                    26
+                ],
+                "expected": [
+                    "整理"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    38,
+                    625,
+                    23,
+                    17
+                ]
+            }
+        },
+        "next": [
+            "识别调兵遣将，桃_副本195",
+            "整理手牌，桃_副本189"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3635,
+                "y": 1690
+            }
+        }
+    },
+    "查找数字，桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    36,
+                    50,
+                    105,
+                    527
+                ],
+                "expected": [
+                    "43"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1111,
+        "next": [
+            "点击开始，桃",
+            "查找数字，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3059,
+                "y": 190
+            }
+        }
+    },
+    "点击2，桃": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    889,
+                    118,
+                    65,
+                    86
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "确定调_，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3322,
+                "y": 1248
+            }
+        }
+    },
+    "点击2，桃_副本190": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    889,
+                    118,
+                    65,
+                    86
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "确定调_，桃_副本192"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3315,
+                "y": 2059
+            }
+        }
+    },
+    "点击开始，桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    878,
+                    315,
+                    27,
+                    22
+                ],
+                "expected": [
+                    "43"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击开始，桃",
+            "整理手牌，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3322,
+                "y": 849
+            }
+        }
+    },
+    "点击开始，桃_副本191": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    878,
+                    315,
+                    27,
+                    22
+                ],
+                "expected": [
+                    "43"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击开始，桃_副本191",
+            "整理手牌，桃_副本189"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3315,
+                "y": 1660
+            }
+        }
+    },
+    "确定调_，桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    605,
+                    450,
+                    80,
+                    32
+                ],
+                "expected": [
+                    "确定"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 2000,
+        "next": [
+            "出桃_，桃",
+            "识别调兵遣将，桃",
+            "确认已选择手牌，点击1_，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3650,
+                "y": 1227
+            }
+        }
+    },
+    "确定调_，桃_副本192": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    605,
+                    450,
+                    80,
+                    32
+                ],
+                "expected": [
+                    "确定"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 2000,
+        "next": [
+            "出桃_，桃_副本188",
+            "识别调兵遣将，桃_副本195",
+            "确认已选择手牌，点击1_，桃_副本193"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3643,
+                "y": 2038
+            }
+        }
+    },
+    "确认已选择手牌，点击1_，桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    404,
+                    536,
+                    417,
+                    23
+                ],
+                "expected": [
+                    "将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    328,
+                    112,
+                    79,
+                    98
+                ]
+            }
+        },
+        "post_delay": 500,
+        "next": [
+            "点击2，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3002,
+                "y": 1231
+            }
+        }
+    },
+    "确认已选择手牌，点击1_，桃_副本193": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    404,
+                    536,
+                    417,
+                    23
+                ],
+                "expected": [
+                    "将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    328,
+                    112,
+                    79,
+                    98
+                ]
+            }
+        },
+        "post_delay": 500,
+        "next": [
+            "点击2，桃_副本190"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2995,
+                "y": 2042
+            }
+        }
+    },
+    "确认打开关卡列表，桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    39,
+                    606,
+                    119,
+                    35
+                ],
+                "expected": [
+                    "挑战进度"
+                ]
+            }
+        },
+        "next": [
+            "查找数字，桃",
+            "向上滑动，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1612,
+                "y": 60
+            }
+        }
+    },
+    "结束，桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    450,
+                    106,
+                    31
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "结束，桃",
+            "返回列表，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4282,
+                "y": 1270
+            }
+        }
+    },
+    "结束，桃_副本194": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    450,
+                    106,
+                    31
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "结束，桃_副本194",
+            "返回列表，桃_副本196"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4275,
+                "y": 2081
+            }
+        }
+    },
+    "识别调兵遣将，桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    401,
+                    527,
+                    442,
+                    62
+                ],
+                "expected": [
+                    "调兵",
+                    "遣将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "确认已选择手牌，点击1_，桃",
+            "识别调兵遣将，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3962,
+                "y": 950
+            }
+        }
+    },
+    "识别调兵遣将，桃_副本195": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    401,
+                    527,
+                    442,
+                    62
+                ],
+                "expected": [
+                    "调兵",
+                    "遣将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "确认已选择手牌，点击1_，桃_副本193",
+            "识别调兵遣将，桃_副本195"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3955,
+                "y": 1761
+            }
+        }
+    },
+    "返回列表，桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    561,
+                    298,
+                    196,
+                    268
+                ],
+                "expected": [
+                    "失败",
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    577,
+                    510,
+                    129,
+                    31
+                ]
+            }
+        },
+        "post_delay": 1111,
+        "next": [
+            "返回列表，桃",
+            "点击开始，桃_副本191"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4590,
+                "y": 1227
+            }
+        }
+    },
+    "返回列表，桃_副本196": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    561,
+                    298,
+                    196,
+                    268
+                ],
+                "expected": [
+                    "失败",
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    577,
+                    510,
+                    129,
+                    31
+                ]
+            }
+        },
+        "post_delay": 1111,
+        "next": [
+            "返回列表，桃_副本196",
+            "退出解卦挑战，易，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4584,
+                "y": 2038
+            }
+        }
+    },
+    "进入关卡选择，桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    44,
+                    53,
+                    34,
+                    34
+                ],
+                "expected": [
+                    "解"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1133,
+                    77,
+                    33,
+                    24
+                ]
+            }
+        },
+        "post_delay": 1110,
+        "next": [
+            "确认打开关卡列表，桃",
+            "进入关卡选择，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1292,
+                "y": 32
+            }
+        }
+    },
+    "进入战役，桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    845,
+                    603,
+                    59,
+                    46
+                ],
+                "expected": [
+                    "伙伴"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    924,
+                    309,
+                    132,
+                    155
+                ]
+            }
+        },
+        "post_delay": 1110,
+        "next": [
+            "进入战役，桃",
+            "进入武侯讲武，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 332,
+                "y": 22
+            }
+        }
+    },
+    "进入武侯讲武，桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    41,
+                    48,
+                    40,
+                    48
+                ],
+                "expected": [
+                    "战"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    810,
+                    327,
+                    94,
+                    75
+                ]
+            }
+        },
+        "post_delay": 1110,
+        "next": [
+            "进入武侯讲武，桃",
+            "进入解卦挑战，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 652,
+                "y": 22
+            }
+        }
+    },
+    "进入解卦挑战，桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    40,
+                    52,
+                    38,
+                    37
+                ],
+                "expected": [
+                    "武"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    944,
+                    313,
+                    125,
+                    98
+                ]
+            }
+        },
+        "post_delay": 1110,
+        "next": [
+            "进入解卦挑战，桃",
+            "进入关卡选择，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 972,
+                "y": 22
+            }
+        }
+    },
+    "退出任务，桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    810,
+                    111,
+                    75,
+                    41
+                ],
+                "expected": [
+                    "任务"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1202,
+                    78,
+                    52,
+                    27
+                ]
+            }
+        },
+        "next": [
+            "退出任务，桃",
+            "进入战役，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 12,
+                "y": 52
+            }
+        }
+    },
+    "退出武侯演武，易，桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    46,
+                    52,
+                    29,
+                    34
+                ],
+                "expected": [
+                    "武"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1202,
+                    78,
+                    52,
+                    24
+                ]
+            }
+        },
+        "next": [
+            "退出武侯演武，易，桃",
+            "退回大厅，易，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5317,
+                "y": 2105
+            }
+        }
+    },
+    "退出解卦挑战，易，桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    47,
+                    52,
+                    31,
+                    31
+                ],
+                "expected": [
+                    "解"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1201,
+                    78,
+                    54,
+                    26
+                ]
+            }
+        },
+        "next": [
+            "退出解卦挑战，易，桃",
+            "退出武侯演武，易，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4997,
+                "y": 2105
+            }
+        }
+    },
+    "退回大厅，易，桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    43,
+                    44,
+                    38,
+                    44
+                ],
+                "expected": [
+                    "战"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1202,
+                    77,
+                    53,
+                    25
+                ]
+            }
+        },
+        "next": [
+            "退回大厅，易，桃",
+            "大厅界面"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5637,
+                "y": 2105
+            }
+        }
+    }
+}

@@ -1,0 +1,1235 @@
+{
+    "$__mpe_config_自动刷军令状": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1786553541313,
+            "isModifiedExternally": false,
+            "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\自动刷军令状.json",
+            "savedViewport": {
+                "x": -745,
+                "y": 495,
+                "zoom": 0.25
+            },
+            "filename": "自动刷军令状",
+            "version": "v1.7.6"
+        }
+    },
+    "$__mpe_external_烽火_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 4857,
+                "y": 996
+            }
+        }
+    },
+    "$__mpe_external_阵前_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 4838,
+                "y": 1212
+            }
+        }
+    },
+    "$__mpe_external_多多_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 4940,
+                "y": 1505
+            }
+        }
+    },
+    "$__mpe_external_弃牌_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5719,
+                "y": -1824
+            }
+        }
+    },
+    "$__mpe_external_怒_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5639,
+                "y": -268
+            }
+        }
+    },
+    "$__mpe_external_易_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5652,
+                "y": 277
+            }
+        }
+    },
+    "$__mpe_external_胜利_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5689,
+                "y": 560
+            }
+        }
+    },
+    "$__mpe_external_装备_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5679,
+                "y": -2022
+            }
+        }
+    },
+    "$__mpe_external_退出任务，夺，破_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5661,
+                "y": -1001
+            },
+            "extra_positions": [
+                {
+                    "x": 5673,
+                    "y": -767
+                },
+                {
+                    "x": 5621,
+                    "y": -469
+                }
+            ]
+        }
+    },
+    "$__mpe_external_退出任务，对局_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5712,
+                "y": 826
+            }
+        }
+    },
+    "$__mpe_external_退出任务，桃_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5633,
+                "y": 47
+            }
+        }
+    },
+    "$__mpe_external_退出任务，调_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5687,
+                "y": -1557
+            }
+        }
+    },
+    "$__mpe_external_退出任务，闪_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5712,
+                "y": -1316
+            }
+        }
+    },
+    "40转60": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    603,
+                    268,
+                    29,
+                    22
+                ],
+                "expected": [
+                    "40"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    668,
+                    188,
+                    20,
+                    16
+                ]
+            }
+        },
+        "post_delay": 500,
+        "next": [
+            "军令状更换任务不再提醒",
+            "中转节点军令状"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4074,
+                "y": -221
+            }
+        }
+    },
+    "60继续走": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    604,
+                    268,
+                    27,
+                    20
+                ],
+                "expected": [
+                    "60"
+                ]
+            }
+        },
+        "next": [
+            "中转节点军令状"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4169,
+                "y": 175
+            }
+        }
+    },
+    "中转节点军令状": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    817,
+                    121,
+                    32,
+                    27
+                ],
+                "expected": [
+                    "任"
+                ]
+            }
+        },
+        "next": [
+            "闪",
+            "夺粮劫营",
+            "桃",
+            "获得胜利",
+            "弃置牌",
+            "装备",
+            "对局",
+            "伤害",
+            "杀",
+            "箭雨齐射",
+            "战法牌",
+            "连环",
+            "烈火焚城，火字重复",
+            "先拔头筹",
+            "烽火狼烟，火字重复",
+            "阵前对决，阵字重复",
+            "多多益善",
+            "识破",
+            "破阵卸甲，阵字重复",
+            "调兵",
+            "易",
+            "怒"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4747,
+                "y": 36
+            }
+        }
+    },
+    "伤害": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    529,
+                    297,
+                    146,
+                    40
+                ],
+                "expected": [
+                    "伤",
+                    "害"
+                ]
+            }
+        },
+        "next": [
+            "伤害_退出任务"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5336,
+                "y": 1081
+            }
+        }
+    },
+    "先拔头筹": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    529,
+                    297,
+                    146,
+                    40
+                ],
+                "expected": [
+                    "先",
+                    "拔",
+                    "头",
+                    "筹"
+                ]
+            }
+        },
+        "next": [
+            "先拔_退出任务"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4497,
+                "y": 692
+            }
+        }
+    },
+    "军令状刷新": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    538,
+                    457,
+                    56,
+                    36
+                ],
+                "expected": [
+                    "确定"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1110,
+        "next": [
+            "军令状刷新",
+            "刷新任务",
+            "退出任务2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2900,
+                "y": 469
+            }
+        }
+    },
+    "军令状更换任务不再提醒": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "roi": [
+                    544,
+                    414,
+                    43,
+                    37
+                ],
+                "template": [
+                    "刷新任务不再提示.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "确定军令状更换任务",
+            "军令状更换任务不再提醒"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4369,
+                "y": -463
+            }
+        }
+    },
+    "刷新任务": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    514,
+                    336,
+                    553,
+                    273
+                ],
+                "expected": [
+                    "刷新"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1111,
+        "next": [
+            "刷新任务不再提示",
+            "军令状刷新",
+            "刷新任务",
+            "退出任务2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2786,
+                "y": -141
+            }
+        }
+    },
+    "刷新任务不再提示": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "roi": [
+                    549,
+                    412,
+                    37,
+                    37
+                ],
+                "template": [
+                    "刷新任务不再提示.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "军令状刷新"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3351,
+                "y": 363
+            }
+        }
+    },
+    "多多益善": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    529,
+                    297,
+                    146,
+                    40
+                ],
+                "expected": [
+                    "多",
+                    "益",
+                    "善"
+                ]
+            }
+        },
+        "next": [
+            "多多_退出任务"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4498,
+                "y": 1467
+            }
+        }
+    },
+    "大厅界面": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "大厅黑.png",
+                    "大厅.png"
+                ]
+            }
+        },
+        "next": [
+            "确定战令",
+            "进入任务",
+            "大厅界面"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1303,
+                "y": 26
+            }
+        }
+    },
+    "夺粮劫营": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    521,
+                    299,
+                    154,
+                    32
+                ],
+                "expected": [
+                    "夺",
+                    "粮"
+                ]
+            }
+        },
+        "next": [
+            "退出任务，夺，破"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5279,
+                "y": -811
+            }
+        }
+    },
+    "对局": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    529,
+                    297,
+                    146,
+                    40
+                ],
+                "expected": [
+                    "游",
+                    "戏"
+                ]
+            }
+        },
+        "next": [
+            "退出任务，对局"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5345,
+                "y": 792
+            }
+        }
+    },
+    "弃置牌": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    536,
+                    302,
+                    132,
+                    26
+                ],
+                "expected": [
+                    "弃",
+                    "置"
+                ]
+            }
+        },
+        "next": [
+            "弃牌_退出任务"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5303,
+                "y": -1862
+            }
+        }
+    },
+    "怒": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    529,
+                    297,
+                    146,
+                    40
+                ],
+                "expected": [
+                    "怒"
+                ]
+            }
+        },
+        "next": [
+            "怒_退出任务"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5294,
+                "y": -292
+            }
+        }
+    },
+    "战法牌": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    529,
+                    297,
+                    146,
+                    40
+                ],
+                "expected": [
+                    "战",
+                    "法"
+                ]
+            }
+        },
+        "next": [
+            "退出任务，夺，破"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5307,
+                "y": -563
+            }
+        }
+    },
+    "易": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    529,
+                    297,
+                    146,
+                    40
+                ],
+                "expected": [
+                    "易"
+                ]
+            }
+        },
+        "next": [
+            "易_退出任务"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5306,
+                "y": 213
+            }
+        }
+    },
+    "杀": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    529,
+                    297,
+                    146,
+                    40
+                ],
+                "expected": [
+                    "杀"
+                ]
+            }
+        },
+        "next": [
+            "杀_退出任务"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5331,
+                "y": 1325
+            }
+        }
+    },
+    "桃": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    536,
+                    302,
+                    132,
+                    26
+                ],
+                "expected": [
+                    "桃"
+                ]
+            }
+        },
+        "next": [
+            "退出任务，桃"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5270,
+                "y": -28
+            }
+        }
+    },
+    "烈火焚城，火字重复": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    529,
+                    297,
+                    146,
+                    40
+                ],
+                "expected": [
+                    "烈",
+                    "焚",
+                    "城"
+                ]
+            }
+        },
+        "next": [
+            "烈火_退出任务"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4499,
+                "y": 456
+            }
+        }
+    },
+    "烽火狼烟，火字重复": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    529,
+                    297,
+                    146,
+                    40
+                ],
+                "expected": [
+                    "烽",
+                    "狼",
+                    "烟"
+                ]
+            }
+        },
+        "next": [
+            "烽火_退出任务"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4489,
+                "y": 941
+            }
+        }
+    },
+    "破阵卸甲，阵字重复": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    529,
+                    297,
+                    146,
+                    40
+                ],
+                "expected": [
+                    "破",
+                    "卸",
+                    "甲"
+                ]
+            }
+        },
+        "next": [
+            "退出任务，夺，破"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5312,
+                "y": -1059
+            }
+        }
+    },
+    "确定军令状更换任务": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    512,
+                    464,
+                    69,
+                    23
+                ],
+                "expected": [
+                    "确定"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 700,
+        "next": [
+            "确定军令状更换任务",
+            "中转节点军令状"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4711,
+                "y": -385
+            }
+        }
+    },
+    "确定战令": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    418,
+                    579,
+                    90,
+                    29
+                ],
+                "expected": [
+                    "确定"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "确定战令",
+            "进入任务"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1835,
+                "y": -240
+            }
+        }
+    },
+    "箭雨齐射": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    529,
+                    297,
+                    146,
+                    40
+                ],
+                "expected": [
+                    "箭",
+                    "雨",
+                    "齐",
+                    "射"
+                ]
+            }
+        },
+        "next": [
+            "箭雨_退出任务"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5370,
+                "y": 1617
+            }
+        }
+    },
+    "获得胜利": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    529,
+                    297,
+                    144,
+                    32
+                ],
+                "expected": [
+                    "胜",
+                    "利"
+                ]
+            }
+        },
+        "next": [
+            "胜利_退出任务"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5327,
+                "y": 496
+            }
+        }
+    },
+    "装备": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    529,
+                    297,
+                    146,
+                    40
+                ],
+                "expected": [
+                    "装",
+                    "备"
+                ]
+            }
+        },
+        "next": [
+            "装备_退出任务"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5318,
+                "y": -2082
+            }
+        }
+    },
+    "识破": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    529,
+                    297,
+                    146,
+                    40
+                ],
+                "expected": [
+                    "识",
+                    "破"
+                ]
+            }
+        },
+        "next": [
+            "识破_退出任务"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4506,
+                "y": 1728
+            }
+        }
+    },
+    "调兵": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    529,
+                    297,
+                    146,
+                    40
+                ],
+                "expected": [
+                    "调",
+                    "兵",
+                    "遣",
+                    "将"
+                ]
+            }
+        },
+        "next": [
+            "退出任务，调"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5326,
+                "y": -1597
+            }
+        }
+    },
+    "进入任务": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    1095,
+                    608,
+                    31,
+                    34
+                ],
+                "expected": [
+                    "任"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1110,
+        "next": [
+            "进入任务",
+            "领取日常奖励",
+            "刷新任务",
+            "退出任务2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1878,
+                "y": 82
+            }
+        }
+    },
+    "进入任务准备识别": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    1095,
+                    608,
+                    31,
+                    34
+                ],
+                "expected": [
+                    "任"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1110,
+        "next": [
+            "进入任务准备识别",
+            "60继续走",
+            "40转60"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3794,
+                "y": -41
+            }
+        }
+    },
+    "连环": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    529,
+                    297,
+                    146,
+                    40
+                ],
+                "expected": [
+                    "连",
+                    "环"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 5380,
+                "y": 1890
+            }
+        }
+    },
+    "退出任务2": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    810,
+                    111,
+                    75,
+                    41
+                ],
+                "expected": [
+                    "任务"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1202,
+                    78,
+                    52,
+                    27
+                ]
+            }
+        },
+        "next": [
+            "退出任务2",
+            "进入任务准备识别"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3480,
+                "y": -26
+            }
+        }
+    },
+    "闪": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    521,
+                    299,
+                    154,
+                    32
+                ],
+                "expected": [
+                    "闪"
+                ]
+            }
+        },
+        "next": [
+            "退出任务，闪"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5296,
+                "y": -1360
+            }
+        }
+    },
+    "阵前对决，阵字重复": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    529,
+                    297,
+                    146,
+                    40
+                ],
+                "expected": [
+                    "前",
+                    "对",
+                    "决"
+                ]
+            }
+        },
+        "next": [
+            "阵前_退出任务"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4498,
+                "y": 1186
+            }
+        }
+    },
+    "领取日常奖励": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    510,
+                    331,
+                    565,
+                    281
+                ],
+                "expected": [
+                    "领取奖励"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1330,
+        "next": [
+            "领取银两",
+            "领取日常奖励",
+            "刷新任务"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2375,
+                "y": 27
+            }
+        }
+    },
+    "领取银两": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    621,
+                    391,
+                    44,
+                    22
+                ],
+                "expected": [
+                    "碎银"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    766,
+                    488,
+                    295,
+                    170
+                ]
+            }
+        },
+        "post_delay": 1110,
+        "next": [
+            "领取日常奖励",
+            "刷新任务",
+            "退出任务2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2367,
+                "y": 398
+            }
+        }
+    },
+    "$__mpe_external_杀_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5730,
+                "y": 1393
+            }
+        }
+    },
+    "$__mpe_external_伤害_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5746,
+                "y": 1131
+            }
+        }
+    },
+    "$__mpe_external_箭雨_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5775,
+                "y": 1656
+            }
+        }
+    },
+    "$__mpe_external_先拔_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 4832,
+                "y": 751
+            }
+        }
+    },
+    "$__mpe_external_烈火_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 4819,
+                "y": 497
+            }
+        }
+    },
+    "$__mpe_external_识破_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 4870,
+                "y": 1781
+            }
+        }
+    }
+}

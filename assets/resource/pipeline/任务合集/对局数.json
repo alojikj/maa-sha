@@ -1,0 +1,1332 @@
+{
+    "$__mpe_config_对局数": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\对局数.json",
+            "lastSyncTime": 1786376773665,
+            "isModifiedExternally": false,
+            "savedViewport": {
+                "x": -962,
+                "y": -136,
+                "zoom": 0.4
+            },
+            "filename": "对局数",
+            "version": "v1.7.6"
+        }
+    },
+    "返回列表，对局": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    561,
+                    298,
+                    196,
+                    268
+                ],
+                "expected": [
+                    "失败",
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    577,
+                    510,
+                    129,
+                    31
+                ]
+            }
+        },
+        "post_delay": 1111,
+        "next": [
+            "返回列表，对局",
+            "点击开始，对局_副本167"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4139,
+                "y": 389
+            }
+        }
+    },
+    "返回列表，对局_副本98": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    561,
+                    298,
+                    196,
+                    268
+                ],
+                "expected": [
+                    "失败",
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    577,
+                    510,
+                    129,
+                    31
+                ]
+            }
+        },
+        "post_delay": 1111,
+        "next": [
+            "返回列表，对局_副本98",
+            "点击开始，对局_副本171"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4175,
+                "y": 733
+            }
+        }
+    },
+    "返回列表，对局_副本99": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    561,
+                    298,
+                    196,
+                    268
+                ],
+                "expected": [
+                    "失败",
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    577,
+                    510,
+                    129,
+                    31
+                ]
+            }
+        },
+        "post_delay": 1111,
+        "next": [
+            "返回列表，对局_副本99",
+            "点击开始，对局_副本175"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4200,
+                "y": 1087
+            }
+        }
+    },
+    "返回列表，对局_副本100": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    561,
+                    298,
+                    196,
+                    268
+                ],
+                "expected": [
+                    "失败",
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    577,
+                    510,
+                    129,
+                    31
+                ]
+            }
+        },
+        "post_delay": 1111,
+        "next": [
+            "返回列表，对局_副本100",
+            "点击开始，对局_副本167_副本179"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4134,
+                "y": 1504
+            }
+        }
+    },
+    "返回列表，对局_副本101": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    561,
+                    298,
+                    196,
+                    268
+                ],
+                "expected": [
+                    "失败",
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    577,
+                    510,
+                    129,
+                    31
+                ]
+            }
+        },
+        "post_delay": 1111,
+        "next": [
+            "返回列表，对局_副本101",
+            "点击开始，对局_副本171_副本183"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4173,
+                "y": 1860
+            }
+        }
+    },
+    "返回列表，对局_副本102": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    561,
+                    298,
+                    196,
+                    268
+                ],
+                "expected": [
+                    "失败",
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    577,
+                    510,
+                    129,
+                    31
+                ]
+            }
+        },
+        "post_delay": 1111,
+        "next": [
+            "点击开始，对局_副本167_副本179_副本187"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5736,
+                "y": 1434
+            }
+        }
+    },
+    "返回列表，对局_副本103": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    561,
+                    298,
+                    196,
+                    268
+                ],
+                "expected": [
+                    "失败",
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    577,
+                    510,
+                    129,
+                    31
+                ]
+            }
+        },
+        "post_delay": 1111,
+        "next": [
+            "返回列表，对局_副本103",
+            "退出解卦挑战，对局"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5711,
+                "y": 1058
+            }
+        }
+    },
+    "返回列表，对局_副本104": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    561,
+                    298,
+                    196,
+                    268
+                ],
+                "expected": [
+                    "失败",
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    577,
+                    510,
+                    129,
+                    31
+                ]
+            }
+        },
+        "post_delay": 1111,
+        "next": [
+            "返回列表，对局_副本104",
+            "点击开始，对局_副本171_副本183_副本191"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4170,
+                "y": 2216
+            }
+        }
+    },
+    "$__mpe_external_大厅界面_对局数": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5452,
+                "y": 431
+            }
+        }
+    },
+    "向上滑动，对局": {
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    80,
+                    104,
+                    1,
+                    1
+                ],
+                "end": [
+                    [
+                        80,
+                        514,
+                        1,
+                        1
+                    ]
+                ],
+                "end_hold": [
+                    500
+                ],
+                "duration": 460
+            }
+        },
+        "post_delay": 700,
+        "timeout": 60000,
+        "next": [
+            "查找数字，对局",
+            "已经滑动到最上方，对局",
+            "向上滑动，对局"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1927,
+                "y": 338
+            }
+        }
+    },
+    "向下滑动，对局": {
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    80,
+                    514,
+                    1,
+                    1
+                ],
+                "end": [
+                    [
+                        80,
+                        104,
+                        1,
+                        1
+                    ]
+                ],
+                "end_hold": [
+                    500
+                ],
+                "duration": 460
+            }
+        },
+        "post_delay": 700,
+        "timeout": 60000,
+        "next": [
+            "查找数字，对局",
+            "向下滑动，对局"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2587,
+                "y": 310
+            }
+        }
+    },
+    "已经滑动到最上方，对局": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    52,
+                    86,
+                    70,
+                    40
+                ],
+                "expected": [
+                    "乾1"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "向下滑动，对局"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2252,
+                "y": 355
+            }
+        }
+    },
+    "查找数字，对局": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    36,
+                    50,
+                    105,
+                    527
+                ],
+                "expected": [
+                    "讼6"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1111,
+        "next": [
+            "点击开始，对局",
+            "查找数字，对局"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2892,
+                "y": 328
+            }
+        }
+    },
+    "点击开始，对局": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    864,
+                    270,
+                    55,
+                    46
+                ],
+                "expected": [
+                    "讼"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击开始，对局",
+            "结束，对局"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3198,
+                "y": 375
+            }
+        }
+    },
+    "点击开始，对局_副本167": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    864,
+                    270,
+                    55,
+                    46
+                ],
+                "expected": [
+                    "讼"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击开始，对局_副本167",
+            "结束，对局_副本169"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3207,
+                "y": 730
+            }
+        }
+    },
+    "点击开始，对局_副本167_副本179": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    864,
+                    270,
+                    55,
+                    46
+                ],
+                "expected": [
+                    "讼"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击开始，对局_副本167_副本179",
+            "结束，对局_副本169_副本181"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3209,
+                "y": 1825
+            }
+        }
+    },
+    "点击开始，对局_副本167_副本179_副本187": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    864,
+                    270,
+                    55,
+                    46
+                ],
+                "expected": [
+                    "讼"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击开始，对局_副本167_副本179_副本187",
+            "结束，对局_副本169_副本181_副本189"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4725,
+                "y": 1036
+            }
+        }
+    },
+    "点击开始，对局_副本171": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    864,
+                    270,
+                    55,
+                    46
+                ],
+                "expected": [
+                    "讼"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击开始，对局_副本171",
+            "结束，对局_副本173"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3196,
+                "y": 1087
+            }
+        }
+    },
+    "点击开始，对局_副本171_副本183": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    864,
+                    270,
+                    55,
+                    46
+                ],
+                "expected": [
+                    "讼"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击开始，对局_副本171_副本183",
+            "结束，对局_副本173_副本185"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3198,
+                "y": 2182
+            }
+        }
+    },
+    "点击开始，对局_副本171_副本183_副本191": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    864,
+                    270,
+                    55,
+                    46
+                ],
+                "expected": [
+                    "讼"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击开始，对局_副本171_副本183_副本191",
+            "结束，对局_副本173_副本185_副本193"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4714,
+                "y": 1392
+            }
+        }
+    },
+    "点击开始，对局_副本175": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    864,
+                    270,
+                    55,
+                    46
+                ],
+                "expected": [
+                    "讼"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "点击开始，对局_副本175",
+            "结束，对局_副本177"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3200,
+                "y": 1470
+            }
+        }
+    },
+    "确认打开关卡列表，对局": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    39,
+                    606,
+                    119,
+                    35
+                ],
+                "expected": [
+                    "挑战进度"
+                ]
+            }
+        },
+        "next": [
+            "查找数字，对局",
+            "向上滑动，对局"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1612,
+                "y": 519
+            }
+        }
+    },
+    "结束，对局": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    450,
+                    106,
+                    31
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "结束，对局",
+            "返回列表，对局"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3834,
+                "y": 415
+            }
+        }
+    },
+    "结束，对局_副本169": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    450,
+                    106,
+                    31
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "结束，对局_副本169",
+            "返回列表，对局_副本98"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3843,
+                "y": 770
+            }
+        }
+    },
+    "结束，对局_副本169_副本181": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    450,
+                    106,
+                    31
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "结束，对局_副本169_副本181",
+            "返回列表，对局_副本101"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3845,
+                "y": 1865
+            }
+        }
+    },
+    "结束，对局_副本169_副本181_副本189": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    450,
+                    106,
+                    31
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "结束，对局_副本169_副本181_副本189",
+            "返回列表，对局_副本103"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5361,
+                "y": 1076
+            }
+        }
+    },
+    "结束，对局_副本173": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    450,
+                    106,
+                    31
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "结束，对局_副本173",
+            "返回列表，对局_副本99"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3840,
+                "y": 1091
+            }
+        }
+    },
+    "结束，对局_副本173_副本185": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    450,
+                    106,
+                    31
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "结束，对局_副本173_副本185",
+            "返回列表，对局_副本104"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3842,
+                "y": 2187
+            }
+        }
+    },
+    "结束，对局_副本173_副本185_副本193": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    450,
+                    106,
+                    31
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "结束，对局_副本173_副本185_副本193",
+            "返回列表，对局_副本102"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5358,
+                "y": 1397
+            }
+        }
+    },
+    "结束，对局_副本177": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    450,
+                    106,
+                    31
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "结束，对局_副本177",
+            "返回列表，对局_副本100"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3836,
+                "y": 1511
+            }
+        }
+    },
+    "进入关卡选择，对局": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    44,
+                    53,
+                    34,
+                    34
+                ],
+                "expected": [
+                    "解"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1133,
+                    77,
+                    33,
+                    24
+                ]
+            }
+        },
+        "post_delay": 1110,
+        "next": [
+            "确认打开关卡列表，对局",
+            "进入关卡选择，对局"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1292,
+                "y": 474
+            }
+        }
+    },
+    "进入战役，对局": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    845,
+                    603,
+                    59,
+                    46
+                ],
+                "expected": [
+                    "伙伴"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    924,
+                    309,
+                    132,
+                    155
+                ]
+            }
+        },
+        "post_delay": 1110,
+        "next": [
+            "进入战役，对局",
+            "进入武侯讲武，对局"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 332,
+                "y": 474
+            }
+        }
+    },
+    "进入武侯讲武，对局": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    41,
+                    48,
+                    40,
+                    48
+                ],
+                "expected": [
+                    "战"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    810,
+                    327,
+                    94,
+                    75
+                ]
+            }
+        },
+        "post_delay": 1110,
+        "next": [
+            "进入武侯讲武，对局",
+            "进入解卦挑战，对局"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 652,
+                "y": 464
+            }
+        }
+    },
+    "进入解卦挑战，对局": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    40,
+                    52,
+                    38,
+                    37
+                ],
+                "expected": [
+                    "武"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    944,
+                    313,
+                    125,
+                    98
+                ]
+            }
+        },
+        "post_delay": 1110,
+        "next": [
+            "进入解卦挑战，对局",
+            "进入关卡选择，对局"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 972,
+                "y": 464
+            }
+        }
+    },
+    "退出任务，对局": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    810,
+                    111,
+                    75,
+                    41
+                ],
+                "expected": [
+                    "任务"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1202,
+                    78,
+                    52,
+                    27
+                ]
+            }
+        },
+        "next": [
+            "退出任务，对局",
+            "进入战役，对局"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 37,
+                "y": 369
+            }
+        }
+    },
+    "退出武侯演武，对局": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    46,
+                    52,
+                    29,
+                    34
+                ],
+                "expected": [
+                    "武"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1202,
+                    78,
+                    52,
+                    24
+                ]
+            }
+        },
+        "next": [
+            "退出武侯演武，对局",
+            "退回大厅，对局"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4812,
+                "y": 342
+            }
+        }
+    },
+    "退出解卦挑战，对局": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    47,
+                    52,
+                    31,
+                    31
+                ],
+                "expected": [
+                    "解"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1201,
+                    78,
+                    54,
+                    26
+                ]
+            }
+        },
+        "next": [
+            "退出解卦挑战，对局",
+            "退出武侯演武，对局"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4492,
+                "y": 332
+            }
+        }
+    },
+    "退回大厅，对局": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    43,
+                    44,
+                    38,
+                    44
+                ],
+                "expected": [
+                    "战"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1202,
+                    77,
+                    53,
+                    25
+                ]
+            }
+        },
+        "next": [
+            "退回大厅，对局",
+            "大厅界面"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5132,
+                "y": 342
+            }
+        }
+    }
+}

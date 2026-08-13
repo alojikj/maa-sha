@@ -1,0 +1,1406 @@
+{
+    "$__mpe_config_装备": {
+        "$__mpe_code": {
+            "prefix": "",
+            "coordinateMode": "absolute-v1",
+            "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\装备.json",
+            "lastSyncTime": 1786373947640,
+            "savedViewport": {
+                "x": -574,
+                "y": 305,
+                "zoom": 0.26
+            },
+            "filename": "装备",
+            "version": "v1.7.6"
+        }
+    },
+    "装备_返回列表": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    561,
+                    298,
+                    196,
+                    268
+                ],
+                "expected": [
+                    "失败",
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    577,
+                    510,
+                    129,
+                    31
+                ]
+            }
+        },
+        "post_delay": 1111,
+        "next": [
+            "装备_返回列表",
+            "装备_点击开始_副本10"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 7171,
+                "y": 788
+            }
+        }
+    },
+    "装备_返回列表_副本96": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    561,
+                    298,
+                    196,
+                    268
+                ],
+                "expected": [
+                    "失败",
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    577,
+                    510,
+                    129,
+                    31
+                ]
+            }
+        },
+        "post_delay": 1111,
+        "next": [
+            "装备_返回列表_副本96",
+            "装备_退出解卦挑战"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 7147,
+                "y": 1222
+            }
+        }
+    },
+    "$__mpe_external_大厅界面_装备": {
+        "$__mpe_code": {
+            "position": {
+                "x": 8462,
+                "y": 1250
+            }
+        }
+    },
+    "装备_向上滑动": {
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    80,
+                    104,
+                    1,
+                    1
+                ],
+                "end": [
+                    [
+                        80,
+                        514,
+                        1,
+                        1
+                    ]
+                ],
+                "end_hold": [
+                    500
+                ],
+                "duration": 460
+            }
+        },
+        "post_delay": 700,
+        "timeout": 60000,
+        "next": [
+            "装备_查找数字",
+            "装备_已经滑动到最上方",
+            "装备_向上滑动"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1927,
+                "y": 338
+            }
+        }
+    },
+    "装备_向下滑动": {
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    80,
+                    514,
+                    1,
+                    1
+                ],
+                "end": [
+                    [
+                        80,
+                        104,
+                        1,
+                        1
+                    ]
+                ],
+                "end_hold": [
+                    500
+                ],
+                "duration": 460
+            }
+        },
+        "post_delay": 700,
+        "timeout": 60000,
+        "next": [
+            "装备_查找数字",
+            "装备_向下滑动"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2587,
+                "y": 310
+            }
+        }
+    },
+    "装备_已经滑动到最上方": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    52,
+                    86,
+                    70,
+                    40
+                ],
+                "expected": [
+                    "乾1"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "装备_向下滑动"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2252,
+                "y": 355
+            }
+        }
+    },
+    "装备_整理手牌": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    26,
+                    634,
+                    46,
+                    26
+                ],
+                "expected": [
+                    "整理"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    38,
+                    625,
+                    23,
+                    17
+                ]
+            }
+        },
+        "next": [
+            "装备_识别连弩",
+            "装备_整理手牌"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3506,
+                "y": 677
+            }
+        }
+    },
+    "装备_查找数字": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    36,
+                    50,
+                    105,
+                    527
+                ],
+                "expected": [
+                    "需5"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1111,
+        "next": [
+            "装备_点击开始",
+            "装备_查找数字"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2892,
+                "y": 328
+            }
+        }
+    },
+    "装备_点击开始": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    865,
+                    266,
+                    57,
+                    49
+                ],
+                "expected": [
+                    "需"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "装备_点击开始",
+            "装备_整理手牌"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3203,
+                "y": 685
+            }
+        }
+    },
+    "装备_确认打开关卡列表": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    39,
+                    606,
+                    119,
+                    35
+                ],
+                "expected": [
+                    "挑战进度"
+                ]
+            }
+        },
+        "next": [
+            "装备_查找数字",
+            "装备_向上滑动"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1612,
+                "y": 519
+            }
+        }
+    },
+    "装备_进入关卡选择": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    44,
+                    53,
+                    34,
+                    34
+                ],
+                "expected": [
+                    "解"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1133,
+                    77,
+                    33,
+                    24
+                ]
+            }
+        },
+        "post_delay": 1110,
+        "next": [
+            "装备_确认打开关卡列表",
+            "装备_进入关卡选择"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1292,
+                "y": 474
+            }
+        }
+    },
+    "装备_进入战役": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    845,
+                    603,
+                    59,
+                    46
+                ],
+                "expected": [
+                    "伙伴"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    924,
+                    309,
+                    132,
+                    155
+                ]
+            }
+        },
+        "post_delay": 1110,
+        "next": [
+            "装备_进入战役",
+            "装备_进入武侯讲武"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 332,
+                "y": 474
+            }
+        }
+    },
+    "装备_进入武侯讲武": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    41,
+                    48,
+                    40,
+                    48
+                ],
+                "expected": [
+                    "战"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    810,
+                    327,
+                    94,
+                    75
+                ]
+            }
+        },
+        "post_delay": 1110,
+        "next": [
+            "装备_进入武侯讲武",
+            "装备_进入解卦挑战"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 652,
+                "y": 464
+            }
+        }
+    },
+    "装备_进入解卦挑战": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    40,
+                    52,
+                    38,
+                    37
+                ],
+                "expected": [
+                    "武"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    944,
+                    313,
+                    125,
+                    98
+                ]
+            }
+        },
+        "post_delay": 1110,
+        "next": [
+            "装备_进入解卦挑战",
+            "装备_进入关卡选择"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 972,
+                "y": 464
+            }
+        }
+    },
+    "装备_退出任务": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    810,
+                    111,
+                    75,
+                    41
+                ],
+                "expected": [
+                    "任务"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1202,
+                    78,
+                    52,
+                    27
+                ]
+            }
+        },
+        "next": [
+            "装备_退出任务",
+            "装备_进入战役"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 37,
+                "y": 369
+            }
+        }
+    },
+    "装备_退出武侯演武": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    46,
+                    52,
+                    29,
+                    34
+                ],
+                "expected": [
+                    "武"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1202,
+                    78,
+                    52,
+                    24
+                ]
+            }
+        },
+        "next": [
+            "装备_退出武侯演武",
+            "装备_退回大厅"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 7822,
+                "y": 1161
+            }
+        }
+    },
+    "装备_退出解卦挑战": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    47,
+                    52,
+                    31,
+                    31
+                ],
+                "expected": [
+                    "解"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1201,
+                    78,
+                    54,
+                    26
+                ]
+            }
+        },
+        "next": [
+            "装备_退出解卦挑战",
+            "装备_退出武侯演武"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 7502,
+                "y": 1151
+            }
+        }
+    },
+    "装备_退回大厅": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    43,
+                    44,
+                    38,
+                    44
+                ],
+                "expected": [
+                    "战"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1202,
+                    77,
+                    53,
+                    25
+                ]
+            }
+        },
+        "next": [
+            "装备_退回大厅",
+            "大厅界面"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8142,
+                "y": 1161
+            }
+        }
+    },
+    "装备_识别开山斧": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    686,
+                    536,
+                    84,
+                    47
+                ],
+                "expected": [
+                    "开",
+                    "山",
+                    "斧",
+                    "范围3"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "装备_打出开山斧",
+            "装备_识别开山斧"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5300,
+                "y": 755
+            }
+        }
+    },
+    "装备_打出开山斧": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    673,
+                    514,
+                    101,
+                    28
+                ],
+                "expected": [
+                    "8",
+                    "开",
+                    "山",
+                    "斧"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    595,
+                    450,
+                    95,
+                    29
+                ]
+            }
+        },
+        "next": [
+            "装备_打出开山斧",
+            "装备_识别云锦袍"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5625,
+                "y": 754
+            }
+        }
+    },
+    "装备_识别连弩": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    784,
+                    552,
+                    59,
+                    37
+                ],
+                "expected": [
+                    "连",
+                    "弩",
+                    "范围",
+                    "1"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "装备_打出连弩",
+            "装备_识别连弩"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3907,
+                "y": 737
+            }
+        }
+    },
+    "装备_打出连弩": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    760,
+                    514,
+                    104,
+                    22
+                ],
+                "expected": [
+                    "2",
+                    "葛",
+                    "诸"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    595,
+                    450,
+                    95,
+                    29
+                ]
+            }
+        },
+        "next": [
+            "装备_打出连弩",
+            "装备_识别轩辕剑"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4250,
+                "y": 739
+            }
+        }
+    },
+    "装备_识别轩辕剑": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    730,
+                    535,
+                    97,
+                    54
+                ],
+                "expected": [
+                    "轩",
+                    "范围2",
+                    "辕",
+                    "剑"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "装备_打出轩辕剑",
+            "装备_识别轩辕剑"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4585,
+                "y": 735
+            }
+        }
+    },
+    "装备_打出轩辕剑": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    726,
+                    514,
+                    103,
+                    26
+                ],
+                "expected": [
+                    "1",
+                    "辕",
+                    "轩",
+                    "剑"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    595,
+                    450,
+                    95,
+                    29
+                ]
+            }
+        },
+        "next": [
+            "装备_打出轩辕剑",
+            "装备_识别开山斧"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4929,
+                "y": 737
+            }
+        }
+    },
+    "装备_识别云锦袍": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    393,
+                    535,
+                    100,
+                    34
+                ],
+                "expected": [
+                    "8",
+                    "云",
+                    "锦",
+                    "袍"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "装备_打出云锦袍",
+            "装备_识别云锦袍"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5968,
+                "y": 760
+            }
+        }
+    },
+    "装备_打出云锦袍": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    394,
+                    514,
+                    99,
+                    29
+                ],
+                "expected": [
+                    "8",
+                    "云",
+                    "锦",
+                    "袍"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    595,
+                    450,
+                    95,
+                    29
+                ]
+            }
+        },
+        "next": [
+            "装备_打出云锦袍",
+            "装备_结束出牌"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6275,
+                "y": 763
+            }
+        }
+    },
+    "装备_结束出牌": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    769,
+                    450,
+                    114,
+                    30
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1111,
+        "next": [
+            "装备_结束出牌",
+            "装备_取消闭月"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6575,
+                "y": 774
+            }
+        }
+    },
+    "装备_整理手牌_副本9": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    26,
+                    634,
+                    46,
+                    26
+                ],
+                "expected": [
+                    "整理"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    38,
+                    625,
+                    23,
+                    17
+                ]
+            }
+        },
+        "next": [
+            "装备_识别连弩_副本26",
+            "装备_整理手牌_副本9"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3516,
+                "y": 1159
+            }
+        }
+    },
+    "装备_点击开始_副本10": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    865,
+                    266,
+                    57,
+                    49
+                ],
+                "expected": [
+                    "需"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "装备_点击开始_副本10",
+            "装备_整理手牌_副本9"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3213,
+                "y": 1167
+            }
+        }
+    },
+    "装备_取消闭月": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    781,
+                    452,
+                    76,
+                    28
+                ],
+                "expected": [
+                    "取消"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "装备_取消闭月",
+            "装备_返回列表"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6860,
+                "y": 784
+            }
+        }
+    },
+    "装备_识别开山斧_副本24": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    686,
+                    536,
+                    84,
+                    47
+                ],
+                "expected": [
+                    "开",
+                    "山",
+                    "斧",
+                    "范围3"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "装备_打出开山斧_副本25",
+            "装备_识别开山斧_副本24"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5271,
+                "y": 1169
+            }
+        }
+    },
+    "装备_打出开山斧_副本25": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    673,
+                    514,
+                    101,
+                    28
+                ],
+                "expected": [
+                    "8",
+                    "开",
+                    "山",
+                    "斧"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    595,
+                    450,
+                    95,
+                    29
+                ]
+            }
+        },
+        "next": [
+            "装备_打出开山斧_副本25",
+            "装备_识别云锦袍_副本30"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5596,
+                "y": 1169
+            }
+        }
+    },
+    "装备_识别连弩_副本26": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    784,
+                    552,
+                    59,
+                    37
+                ],
+                "expected": [
+                    "连",
+                    "弩",
+                    "范围",
+                    "1"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "装备_打出连弩_副本27",
+            "装备_识别连弩_副本26"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3878,
+                "y": 1151
+            }
+        }
+    },
+    "装备_打出连弩_副本27": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    760,
+                    514,
+                    104,
+                    22
+                ],
+                "expected": [
+                    "2",
+                    "葛",
+                    "诸"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    595,
+                    450,
+                    95,
+                    29
+                ]
+            }
+        },
+        "next": [
+            "装备_打出连弩_副本27",
+            "装备_识别轩辕剑_副本28"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4222,
+                "y": 1154
+            }
+        }
+    },
+    "装备_识别轩辕剑_副本28": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    730,
+                    535,
+                    97,
+                    54
+                ],
+                "expected": [
+                    "轩",
+                    "范围2",
+                    "辕",
+                    "剑"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "装备_打出轩辕剑_副本29",
+            "装备_识别轩辕剑_副本28"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4557,
+                "y": 1150
+            }
+        }
+    },
+    "装备_打出轩辕剑_副本29": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    726,
+                    514,
+                    103,
+                    26
+                ],
+                "expected": [
+                    "1",
+                    "辕",
+                    "轩",
+                    "剑"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    595,
+                    450,
+                    95,
+                    29
+                ]
+            }
+        },
+        "next": [
+            "装备_打出轩辕剑_副本29",
+            "装备_识别开山斧_副本24"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4900,
+                "y": 1152
+            }
+        }
+    },
+    "装备_识别云锦袍_副本30": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    393,
+                    535,
+                    100,
+                    34
+                ],
+                "expected": [
+                    "8",
+                    "云",
+                    "锦",
+                    "袍"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "装备_打出云锦袍_副本31",
+            "装备_识别云锦袍_副本30"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5940,
+                "y": 1175
+            }
+        }
+    },
+    "装备_打出云锦袍_副本31": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    394,
+                    514,
+                    99,
+                    29
+                ],
+                "expected": [
+                    "8",
+                    "云",
+                    "锦",
+                    "袍"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    595,
+                    450,
+                    95,
+                    29
+                ]
+            }
+        },
+        "next": [
+            "装备_打出云锦袍_副本31",
+            "装备_结束出牌_副本32"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6246,
+                "y": 1177
+            }
+        }
+    },
+    "装备_结束出牌_副本32": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    769,
+                    450,
+                    114,
+                    30
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1111,
+        "next": [
+            "装备_结束出牌_副本32",
+            "装备_取消闭月_副本33"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6546,
+                "y": 1189
+            }
+        }
+    },
+    "装备_取消闭月_副本33": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    781,
+                    452,
+                    76,
+                    28
+                ],
+                "expected": [
+                    "取消"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "装备_取消闭月_副本33",
+            "装备_返回列表_副本96"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6832,
+                "y": 1198
+            }
+        }
+    }
+}
