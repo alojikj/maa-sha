@@ -3,31 +3,31 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786553541313,
+            "lastSyncTime": 1786598951933,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\自动刷军令状.json",
             "savedViewport": {
-                "x": -745,
-                "y": 495,
-                "zoom": 0.25
+                "x": -2296,
+                "y": 328,
+                "zoom": 0.88
             },
             "filename": "自动刷军令状",
             "version": "v1.7.6"
         }
     },
-    "$__mpe_external_烽火_退出任务_自动刷军令状": {
+    "$__mpe_external_伤害_退出任务_自动刷军令状": {
         "$__mpe_code": {
             "position": {
-                "x": 4857,
-                "y": 996
+                "x": 5746,
+                "y": 1131
             }
         }
     },
-    "$__mpe_external_阵前_退出任务_自动刷军令状": {
+    "$__mpe_external_先拔_退出任务_自动刷军令状": {
         "$__mpe_code": {
             "position": {
-                "x": 4838,
-                "y": 1212
+                "x": 4832,
+                "y": 751
             }
         }
     },
@@ -63,6 +63,38 @@
             }
         }
     },
+    "$__mpe_external_杀_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5730,
+                "y": 1393
+            }
+        }
+    },
+    "$__mpe_external_烈火_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 4819,
+                "y": 497
+            }
+        }
+    },
+    "$__mpe_external_烽火_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 4857,
+                "y": 996
+            }
+        }
+    },
+    "$__mpe_external_箭雨_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5775,
+                "y": 1656
+            }
+        }
+    },
     "$__mpe_external_胜利_退出任务_自动刷军令状": {
         "$__mpe_code": {
             "position": {
@@ -76,6 +108,14 @@
             "position": {
                 "x": 5679,
                 "y": -2022
+            }
+        }
+    },
+    "$__mpe_external_识破_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 4870,
+                "y": 1781
             }
         }
     },
@@ -126,6 +166,14 @@
             "position": {
                 "x": 5712,
                 "y": -1316
+            }
+        }
+    },
+    "$__mpe_external_阵前_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 4838,
+                "y": 1212
             }
         }
     },
@@ -1051,6 +1099,7 @@
                 ]
             }
         },
+        "post_delay": 1111,
         "next": [
             "退出任务2",
             "进入任务准备识别"
@@ -1181,54 +1230,6 @@
             "position": {
                 "x": 2367,
                 "y": 398
-            }
-        }
-    },
-    "$__mpe_external_杀_退出任务_自动刷军令状": {
-        "$__mpe_code": {
-            "position": {
-                "x": 5730,
-                "y": 1393
-            }
-        }
-    },
-    "$__mpe_external_伤害_退出任务_自动刷军令状": {
-        "$__mpe_code": {
-            "position": {
-                "x": 5746,
-                "y": 1131
-            }
-        }
-    },
-    "$__mpe_external_箭雨_退出任务_自动刷军令状": {
-        "$__mpe_code": {
-            "position": {
-                "x": 5775,
-                "y": 1656
-            }
-        }
-    },
-    "$__mpe_external_先拔_退出任务_自动刷军令状": {
-        "$__mpe_code": {
-            "position": {
-                "x": 4832,
-                "y": 751
-            }
-        }
-    },
-    "$__mpe_external_烈火_退出任务_自动刷军令状": {
-        "$__mpe_code": {
-            "position": {
-                "x": 4819,
-                "y": 497
-            }
-        }
-    },
-    "$__mpe_external_识破_退出任务_自动刷军令状": {
-        "$__mpe_code": {
-            "position": {
-                "x": 4870,
-                "y": 1781
             }
         }
     }
