@@ -6,4 +6,4 @@
 
 ##设备设置
 推荐配合模拟器登录游戏来进行，还没使用电脑测试过，模拟器推荐分辨率为1920x1080，理论上应该同比例的都可以
-![推荐设置如下：](https://github.com/alojikj/maa-sha/blob/main/assets/resource/image/%E6%8E%A8%E8%8D%90%E8%AE%BE%E7%BD%AE.png)
+![推荐设置如下：](assets/resource/image/setting.png))
