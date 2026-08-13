@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786588053929,
+            "lastSyncTime": 1786598030391,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\通用关卡查找模板.json",
             "savedViewport": {
-                "x": -2562,
-                "y": -416,
-                "zoom": 0.86
+                "x": 947,
+                "y": 98,
+                "zoom": 0.99
             },
             "filename": "通用关卡查找模板",
             "version": "v1.7.6"
@@ -289,6 +289,36 @@
             }
         }
     },
+    "返回列表": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    362,
+                    294,
+                    549,
+                    262
+                ],
+                "expected": [
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1111,
+        "next": [
+            "返回列表",
+            "退出解卦挑战"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4175,
+                "y": 782
+            }
+        }
+    },
     "进入关卡选择": {
         "recognition": {
             "type": "OCR",
@@ -467,6 +497,7 @@
                 ]
             }
         },
+        "post_delay": 1111,
         "next": [
             "退出任务",
             "进入战役"
@@ -586,36 +617,6 @@
             "position": {
                 "x": 5132,
                 "y": 342
-            }
-        }
-    },
-    "返回列表": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    362,
-                    294,
-                    549,
-                    262
-                ],
-                "expected": [
-                    "返回列表"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 1111,
-        "next": [
-            "返回列表",
-            "退出解卦挑战"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 4175,
-                "y": 782
             }
         }
     }

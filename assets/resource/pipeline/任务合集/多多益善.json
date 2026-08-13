@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786588528366,
+            "lastSyncTime": 1786598352467,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\多多益善.json",
             "savedViewport": {
-                "x": -3788,
-                "y": -1051,
-                "zoom": 0.8
+                "x": 504,
+                "y": -129,
+                "zoom": 0.99
             },
             "filename": "多多益善",
             "version": "v1.7.6"
@@ -1564,6 +1564,7 @@
                 ]
             }
         },
+        "post_delay": 1111,
         "next": [
             "多多_退出任务",
             "多多_进入战役"

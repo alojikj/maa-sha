@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786589408462,
+            "lastSyncTime": 1786598183931,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\杀.json",
             "savedViewport": {
-                "x": -3472,
-                "y": -1123,
-                "zoom": 0.61
+                "x": 532,
+                "y": -142,
+                "zoom": 0.8
             },
             "filename": "杀",
             "version": "v1.7.6"
@@ -3193,6 +3193,7 @@
                 ]
             }
         },
+        "post_delay": 1111,
         "next": [
             "杀_退出任务",
             "杀_进入战役"

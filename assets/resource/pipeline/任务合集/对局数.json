@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786588610488,
+            "lastSyncTime": 1786598126520,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\对局数.json",
             "savedViewport": {
-                "x": -2783,
-                "y": -202,
-                "zoom": 0.76
+                "x": 738,
+                "y": -101,
+                "zoom": 0.86
             },
             "filename": "对局数",
             "version": "v1.7.6"
@@ -1135,6 +1135,7 @@
                 ]
             }
         },
+        "post_delay": 1111,
         "next": [
             "退出任务，对局",
             "进入战役，对局"

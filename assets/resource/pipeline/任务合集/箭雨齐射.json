@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786589576442,
+            "lastSyncTime": 1786589590770,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\箭雨齐射.json",
             "savedViewport": {
-                "x": -2617,
-                "y": -223,
-                "zoom": 0.61
+                "x": 497,
+                "y": 167,
+                "zoom": 0.27
             },
             "filename": "箭雨齐射",
             "version": "v1.7.6"
@@ -1028,6 +1028,7 @@
                 ]
             }
         },
+        "post_delay": 1111,
         "next": [
             "箭雨_退出任务",
             "箭雨_进入战役"

@@ -7,9 +7,9 @@
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\阵前对决.json",
             "savedViewport": {
-                "x": -3933,
-                "y": -878,
-                "zoom": 0.7
+                "x": 756,
+                "y": 93,
+                "zoom": 0.46
             },
             "filename": "阵前对决",
             "version": "v1.7.6"
@@ -1696,6 +1696,7 @@
                 ]
             }
         },
+        "post_delay": 1111,
         "next": [
             "阵前_退出任务",
             "阵前_进入战役"

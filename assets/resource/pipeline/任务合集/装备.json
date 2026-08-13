@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786589621376,
+            "lastSyncTime": 1786589643156,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\装备.json",
             "savedViewport": {
-                "x": -4190,
-                "y": -411,
-                "zoom": 0.7
+                "x": 889,
+                "y": -32,
+                "zoom": 0.46
             },
             "filename": "装备",
             "version": "v1.7.6"
@@ -1264,6 +1264,7 @@
                 ]
             }
         },
+        "post_delay": 1111,
         "next": [
             "装备_退出任务",
             "装备_进入战役"

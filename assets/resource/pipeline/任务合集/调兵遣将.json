@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786589679424,
+            "lastSyncTime": 1786589715633,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\调兵遣将.json",
             "savedViewport": {
-                "x": -2039,
-                "y": -1206,
-                "zoom": 0.46
+                "x": 791,
+                "y": 145,
+                "zoom": 0.26
             },
             "filename": "调兵遣将",
             "version": "v1.7.6"
@@ -1504,6 +1504,7 @@
                 ]
             }
         },
+        "post_delay": 1111,
         "next": [
             "退出任务，调",
             "进入战役，调，闪"

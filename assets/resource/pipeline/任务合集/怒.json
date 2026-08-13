@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786589365878,
+            "lastSyncTime": 1786598158872,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\怒.json",
             "savedViewport": {
-                "x": -1923,
-                "y": -83,
-                "zoom": 0.46
+                "x": 608,
+                "y": -144,
+                "zoom": 0.86
             },
             "filename": "怒",
             "version": "v1.7.6"
@@ -906,6 +906,7 @@
                 ]
             }
         },
+        "post_delay": 1111,
         "next": [
             "怒_退出任务",
             "怒_进入战役"

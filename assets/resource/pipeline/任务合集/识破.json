@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786589644555,
+            "lastSyncTime": 1786589677127,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\识破.json",
             "savedViewport": {
-                "x": -458,
-                "y": -169,
-                "zoom": 0.23
+                "x": 678,
+                "y": -46,
+                "zoom": 0.2
             },
             "filename": "识破",
             "version": "v1.7.6"
@@ -1460,6 +1460,7 @@
                 ]
             }
         },
+        "post_delay": 1111,
         "next": [
             "识破_退出任务",
             "识破_进入战役"

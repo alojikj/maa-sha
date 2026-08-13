@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786588572959,
+            "lastSyncTime": 1786598084684,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\夺粮劫营.json",
             "savedViewport": {
-                "x": -6593,
-                "y": -2288,
-                "zoom": 1.15
+                "x": 497,
+                "y": -259,
+                "zoom": 0.99
             },
             "filename": "夺粮劫营",
             "version": "v1.7.6"
@@ -1804,6 +1804,7 @@
                 ]
             }
         },
+        "post_delay": 1111,
         "next": [
             "退出任务，夺，破",
             "进入战役，夺，破"

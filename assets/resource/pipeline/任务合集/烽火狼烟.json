@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786589557389,
+            "lastSyncTime": 1786589569048,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\烽火狼烟.json",
             "savedViewport": {
-                "x": -2210,
-                "y": -220,
-                "zoom": 0.61
+                "x": 620,
+                "y": 318,
+                "zoom": 0.2
             },
             "filename": "烽火狼烟",
             "version": "v1.7.6"
@@ -770,6 +770,7 @@
                 ]
             }
         },
+        "post_delay": 1111,
         "next": [
             "烽火_退出任务",
             "烽火_进入战役"

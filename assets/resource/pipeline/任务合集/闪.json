@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786589719352,
+            "lastSyncTime": 1786589825912,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\闪.json",
             "savedViewport": {
-                "x": -4913,
-                "y": -8118,
-                "zoom": 1.06
+                "x": 611,
+                "y": -67,
+                "zoom": 0.92
             },
             "filename": "闪",
             "version": "v1.7.6"
@@ -360,6 +360,7 @@
                 ]
             }
         },
+        "post_delay": 1111,
         "next": [
             "退出任务，闪",
             "进入战役，闪"

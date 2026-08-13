@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786589383075,
+            "lastSyncTime": 1786598171408,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\易.json",
             "savedViewport": {
-                "x": -4214,
-                "y": -634,
-                "zoom": 0.92
+                "x": 791,
+                "y": -98,
+                "zoom": 0.86
             },
             "filename": "易",
             "version": "v1.7.6"
@@ -630,6 +630,7 @@
                 ]
             }
         },
+        "post_delay": 1111,
         "next": [
             "易_退出任务",
             "易_进入战役"

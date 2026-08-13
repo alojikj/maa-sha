@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786589461901,
+            "lastSyncTime": 1786598202588,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\桃.json",
             "savedViewport": {
-                "x": -3214,
-                "y": -1114,
-                "zoom": 0.75
+                "x": 792,
+                "y": 110,
+                "zoom": 0.7
             },
             "filename": "桃",
             "version": "v1.7.6"
@@ -932,6 +932,7 @@
                 ]
             }
         },
+        "post_delay": 1111,
         "next": [
             "退出任务，桃",
             "进入战役，桃"
