@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786588405569,
+            "lastSyncTime": 1786591374242,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\先拔头筹.json",
             "savedViewport": {
-                "x": -3174,
-                "y": -564,
-                "zoom": 0.75
+                "x": -1574,
+                "y": -303,
+                "zoom": 0.7
             },
             "filename": "先拔头筹",
             "version": "v1.7.6"
@@ -697,7 +697,6 @@
                     262
                 ],
                 "expected": [
-                    "失败",
                     "返回列表"
                 ]
             }
