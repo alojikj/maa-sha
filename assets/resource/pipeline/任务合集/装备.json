@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786589643156,
+            "lastSyncTime": 1786622560511,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\装备.json",
             "savedViewport": {
-                "x": 889,
-                "y": -32,
-                "zoom": 0.46
+                "x": -2396,
+                "y": -220,
+                "zoom": 0.5
             },
             "filename": "装备",
             "version": "v1.7.6"
@@ -731,7 +731,8 @@
         "post_delay": 1111,
         "next": [
             "装备_结束出牌",
-            "装备_取消闭月"
+            "装备_取消闭月",
+            "装备_返回列表"
         ],
         "$__mpe_code": {
             "position": {
@@ -761,7 +762,8 @@
         "post_delay": 1111,
         "next": [
             "装备_结束出牌_副本32",
-            "装备_取消闭月_副本33"
+            "装备_取消闭月_副本33",
+            "装备_返回列表_副本96"
         ],
         "$__mpe_code": {
             "position": {

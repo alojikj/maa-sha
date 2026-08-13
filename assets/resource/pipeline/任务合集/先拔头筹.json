@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786598122016,
+            "lastSyncTime": 1786622324945,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\先拔头筹.json",
             "savedViewport": {
-                "x": 793,
-                "y": -291,
-                "zoom": 1.14
+                "x": -2123,
+                "y": -223,
+                "zoom": 0.57
             },
             "filename": "先拔头筹",
             "version": "v1.7.6"
@@ -491,7 +491,8 @@
         "next": [
             "先拔_结束出牌",
             "先拔_返回列表1",
-            "先拔_取消闭月"
+            "先拔_取消闭月",
+            "先拔_返回列表2"
         ],
         "$__mpe_code": {
             "position": {
@@ -521,7 +522,8 @@
         "next": [
             "先拔_结束出牌_副本200",
             "先拔_返回列表1_副本194",
-            "先拔_取消闭月_副本199"
+            "先拔_取消闭月_副本199",
+            "先拔_返回列表2_副本198"
         ],
         "$__mpe_code": {
             "position": {

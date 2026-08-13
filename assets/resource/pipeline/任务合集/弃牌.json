@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786598141853,
+            "lastSyncTime": 1786622512920,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\弃牌.json",
             "savedViewport": {
-                "x": 716,
-                "y": 163,
-                "zoom": 0.86
+                "x": -4413,
+                "y": -1231,
+                "zoom": 0.66
             },
             "filename": "弃牌",
             "version": "v1.7.6"
@@ -924,7 +924,8 @@
         },
         "next": [
             "弃牌_确认选择开山斧",
-            "弃置_取消闭月"
+            "弃置_取消闭月",
+            "弃牌_返回列表"
         ],
         "$__mpe_code": {
             "position": {
@@ -963,7 +964,8 @@
         },
         "next": [
             "弃牌_确认选择开山斧_副本54",
-            "弃置_取消闭月_副本55"
+            "弃置_取消闭月_副本55",
+            "弃牌_返回列表_副本92"
         ],
         "$__mpe_code": {
             "position": {
@@ -1002,7 +1004,8 @@
         },
         "next": [
             "弃牌_确认选择开山斧_副本54_副本88",
-            "弃置_取消闭月_副本55_副本89"
+            "弃置_取消闭月_副本55_副本89",
+            "弃牌_返回列表_副本94"
         ],
         "$__mpe_code": {
             "position": {
@@ -1041,7 +1044,8 @@
         },
         "next": [
             "弃牌_确认选择开山斧_副本71",
-            "弃置_取消闭月_副本72"
+            "弃置_取消闭月_副本72",
+            "弃牌_返回列表_副本93"
         ],
         "$__mpe_code": {
             "position": {
