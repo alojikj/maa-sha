@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786552963592,
+            "lastSyncTime": 1786589249047,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\弃牌.json",
             "savedViewport": {
-                "x": -265,
-                "y": -15,
-                "zoom": 0.25
+                "x": -5239,
+                "y": -1049,
+                "zoom": 0.7
             },
             "filename": "弃牌",
             "version": "v1.7.6"
@@ -2135,27 +2135,18 @@
             "type": "OCR",
             "param": {
                 "roi": [
-                    561,
-                    298,
-                    196,
-                    268
+                    362,
+                    294,
+                    549,
+                    262
                 ],
                 "expected": [
-                    "失败",
                     "返回列表"
                 ]
             }
         },
         "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
+            "type": "Click"
         },
         "post_delay": 1111,
         "next": [
@@ -2174,27 +2165,18 @@
             "type": "OCR",
             "param": {
                 "roi": [
-                    561,
-                    298,
-                    196,
-                    268
+                    362,
+                    294,
+                    549,
+                    262
                 ],
                 "expected": [
-                    "失败",
                     "返回列表"
                 ]
             }
         },
         "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
+            "type": "Click"
         },
         "post_delay": 1111,
         "next": [
@@ -2213,27 +2195,18 @@
             "type": "OCR",
             "param": {
                 "roi": [
-                    561,
-                    298,
-                    196,
-                    268
+                    362,
+                    294,
+                    549,
+                    262
                 ],
                 "expected": [
-                    "失败",
                     "返回列表"
                 ]
             }
         },
         "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
+            "type": "Click"
         },
         "post_delay": 1111,
         "next": [
@@ -2252,27 +2225,18 @@
             "type": "OCR",
             "param": {
                 "roi": [
-                    561,
-                    298,
-                    196,
-                    268
+                    362,
+                    294,
+                    549,
+                    262
                 ],
                 "expected": [
-                    "失败",
                     "返回列表"
                 ]
             }
         },
         "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
+            "type": "Click"
         },
         "post_delay": 1111,
         "next": [

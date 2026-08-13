@@ -3,55 +3,16 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786376250302,
+            "lastSyncTime": 1786589383075,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\易.json",
             "savedViewport": {
-                "x": -1458,
-                "y": 47,
-                "zoom": 0.49
+                "x": -4214,
+                "y": -634,
+                "zoom": 0.92
             },
             "filename": "易",
             "version": "v1.7.6"
-        }
-    },
-    "易_返回列表": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    561,
-                    298,
-                    196,
-                    268
-                ],
-                "expected": [
-                    "失败",
-                    "返回列表"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
-        },
-        "post_delay": 1111,
-        "next": [
-            "易_返回列表",
-            "易_退出解卦挑战"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5470,
-                "y": 788
-            }
         }
     },
     "$__mpe_external_大厅界面_易": {
@@ -372,6 +333,35 @@
             }
         }
     },
+    "易_结束出牌": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    451,
+                    102,
+                    24
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "易_结束出牌",
+            "易_返回列表"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5194,
+                "y": 811
+            }
+        }
+    },
     "易_识别易": {
         "recognition": {
             "type": "OCR",
@@ -429,6 +419,36 @@
             "position": {
                 "x": 4476,
                 "y": 811
+            }
+        }
+    },
+    "易_返回列表": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    362,
+                    294,
+                    549,
+                    262
+                ],
+                "expected": [
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1111,
+        "next": [
+            "易_返回列表",
+            "易_退出解卦挑战"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5470,
+                "y": 788
             }
         }
     },
@@ -729,35 +749,6 @@
             "position": {
                 "x": 6364,
                 "y": 477
-            }
-        }
-    },
-    "易_结束出牌": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    774,
-                    451,
-                    102,
-                    24
-                ],
-                "expected": [
-                    "结束出牌"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "易_结束出牌",
-            "易_返回列表"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5194,
-                "y": 811
             }
         }
     }

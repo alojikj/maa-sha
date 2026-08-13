@@ -3,54 +3,16 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1786589365878,
+            "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\怒.json",
-            "lastSyncTime": 1786376754402,
             "savedViewport": {
-                "x": -1687,
-                "y": -358,
-                "zoom": 0.65
+                "x": -1923,
+                "y": -83,
+                "zoom": 0.46
             },
             "filename": "怒",
             "version": "v1.7.6"
-        }
-    },
-    "怒_返回列表": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    561,
-                    298,
-                    196,
-                    268
-                ],
-                "expected": [
-                    "失败",
-                    "返回列表"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
-        },
-        "post_delay": 1111,
-        "next": [
-            "怒_返回列表",
-            "怒_点击开始_副本184"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5470,
-                "y": 788
-            }
         }
     },
     "$__mpe_external_大厅界面_怒": {
@@ -241,6 +203,83 @@
             }
         }
     },
+    "怒_打出怒2_副本182": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    728,
+                    515,
+                    82,
+                    45
+                ],
+                "expected": [
+                    "怒",
+                    "4",
+                    "气"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    605,
+                    452,
+                    75,
+                    28
+                ]
+            }
+        },
+        "next": [
+            "怒_打出怒2_副本182",
+            "怒_结束出牌_副本187"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4829,
+                "y": 1197
+            }
+        }
+    },
+    "怒_打出怒_副本181": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    782,
+                    514,
+                    90,
+                    45
+                ],
+                "expected": [
+                    "怒",
+                    "4"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    605,
+                    452,
+                    75,
+                    28
+                ]
+            }
+        },
+        "next": [
+            "怒_打出怒_副本181",
+            "怒_识别怒2_副本186"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4103,
+                "y": 1219
+            }
+        }
+    },
     "怒_整理手牌": {
         "recognition": {
             "type": "OCR",
@@ -275,6 +314,43 @@
             "position": {
                 "x": 3462,
                 "y": 838
+            }
+        }
+    },
+    "怒_整理手牌_副本183": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    26,
+                    634,
+                    46,
+                    26
+                ],
+                "expected": [
+                    "整理"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    38,
+                    625,
+                    23,
+                    17
+                ]
+            }
+        },
+        "next": [
+            "怒_识别怒_副本185",
+            "怒_整理手牌_副本183"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3453,
+                "y": 1236
             }
         }
     },
@@ -346,6 +422,44 @@
             }
         }
     },
+    "怒_点击开始_副本184": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    878,
+                    315,
+                    27,
+                    22
+                ],
+                "expected": [
+                    "18"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "怒_点击开始_副本184",
+            "怒_整理手牌_副本183"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3133,
+                "y": 1236
+            }
+        }
+    },
     "怒_确认打开关卡列表": {
         "recognition": {
             "type": "OCR",
@@ -369,6 +483,64 @@
             "position": {
                 "x": 1612,
                 "y": 519
+            }
+        }
+    },
+    "怒_结束出牌": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    451,
+                    102,
+                    24
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "怒_结束出牌",
+            "怒_返回列表"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5161,
+                "y": 802
+            }
+        }
+    },
+    "怒_结束出牌_副本187": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    451,
+                    102,
+                    24
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "怒_结束出牌_副本187",
+            "怒_返回列表_副本180"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5152,
+                "y": 1200
             }
         }
     },
@@ -431,6 +603,128 @@
             "position": {
                 "x": 4476,
                 "y": 811
+            }
+        }
+    },
+    "怒_识别怒2_副本186": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    728,
+                    535,
+                    87,
+                    44
+                ],
+                "expected": [
+                    "怒",
+                    "4",
+                    "气"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "怒_打出怒2_副本182",
+            "怒_识别怒2_副本186"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4467,
+                "y": 1209
+            }
+        }
+    },
+    "怒_识别怒_副本185": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    784,
+                    535,
+                    84,
+                    49
+                ],
+                "expected": [
+                    "怒",
+                    "4",
+                    "气"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "怒_打出怒_副本181",
+            "怒_识别怒_副本185"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3777,
+                "y": 1237
+            }
+        }
+    },
+    "怒_返回列表": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    362,
+                    294,
+                    549,
+                    262
+                ],
+                "expected": [
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1111,
+        "next": [
+            "怒_返回列表",
+            "怒_点击开始_副本184"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5470,
+                "y": 788
+            }
+        }
+    },
+    "怒_返回列表_副本180": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    362,
+                    294,
+                    549,
+                    262
+                ],
+                "expected": [
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1111,
+        "next": [
+            "怒_返回列表_副本180",
+            "怒_退出解卦挑战"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5461,
+                "y": 1186
             }
         }
     },
@@ -731,328 +1025,6 @@
             "position": {
                 "x": 6520,
                 "y": 1255
-            }
-        }
-    },
-    "怒_结束出牌": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    774,
-                    451,
-                    102,
-                    24
-                ],
-                "expected": [
-                    "结束出牌"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "怒_结束出牌",
-            "怒_返回列表"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5161,
-                "y": 802
-            }
-        }
-    },
-    "怒_返回列表_副本180": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    561,
-                    298,
-                    196,
-                    268
-                ],
-                "expected": [
-                    "失败",
-                    "返回列表"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
-        },
-        "post_delay": 1111,
-        "next": [
-            "怒_返回列表_副本180",
-            "怒_退出解卦挑战"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5461,
-                "y": 1186
-            }
-        }
-    },
-    "怒_打出怒_副本181": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    782,
-                    514,
-                    90,
-                    45
-                ],
-                "expected": [
-                    "怒",
-                    "4"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    605,
-                    452,
-                    75,
-                    28
-                ]
-            }
-        },
-        "next": [
-            "怒_打出怒_副本181",
-            "怒_识别怒2_副本186"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 4103,
-                "y": 1219
-            }
-        }
-    },
-    "怒_打出怒2_副本182": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    728,
-                    515,
-                    82,
-                    45
-                ],
-                "expected": [
-                    "怒",
-                    "4",
-                    "气"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    605,
-                    452,
-                    75,
-                    28
-                ]
-            }
-        },
-        "next": [
-            "怒_打出怒2_副本182",
-            "怒_结束出牌_副本187"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 4829,
-                "y": 1197
-            }
-        }
-    },
-    "怒_整理手牌_副本183": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    26,
-                    634,
-                    46,
-                    26
-                ],
-                "expected": [
-                    "整理"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    38,
-                    625,
-                    23,
-                    17
-                ]
-            }
-        },
-        "next": [
-            "怒_识别怒_副本185",
-            "怒_整理手牌_副本183"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3453,
-                "y": 1236
-            }
-        }
-    },
-    "怒_点击开始_副本184": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    878,
-                    315,
-                    27,
-                    22
-                ],
-                "expected": [
-                    "18"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    1098,
-                    602,
-                    154,
-                    29
-                ]
-            }
-        },
-        "post_delay": 2000,
-        "next": [
-            "怒_点击开始_副本184",
-            "怒_整理手牌_副本183"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3133,
-                "y": 1236
-            }
-        }
-    },
-    "怒_识别怒_副本185": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    784,
-                    535,
-                    84,
-                    49
-                ],
-                "expected": [
-                    "怒",
-                    "4",
-                    "气"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "怒_打出怒_副本181",
-            "怒_识别怒_副本185"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3777,
-                "y": 1237
-            }
-        }
-    },
-    "怒_识别怒2_副本186": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    728,
-                    535,
-                    87,
-                    44
-                ],
-                "expected": [
-                    "怒",
-                    "4",
-                    "气"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "怒_打出怒2_副本182",
-            "怒_识别怒2_副本186"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 4467,
-                "y": 1209
-            }
-        }
-    },
-    "怒_结束出牌_副本187": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    774,
-                    451,
-                    102,
-                    24
-                ],
-                "expected": [
-                    "结束出牌"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "怒_结束出牌_副本187",
-            "怒_返回列表_副本180"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5152,
-                "y": 1200
-            }
-        }
-    },
-    "测试": {
-        "next": [
-            "怒_点击开始"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 2720,
-                "y": 835
             }
         }
     }

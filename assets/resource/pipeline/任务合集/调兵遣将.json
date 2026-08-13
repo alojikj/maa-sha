@@ -3,12 +3,12 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786433841415,
+            "lastSyncTime": 1786589679424,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\调兵遣将.json",
             "savedViewport": {
-                "x": -1259,
-                "y": -304,
+                "x": -2039,
+                "y": -1206,
                 "zoom": 0.46
             },
             "filename": "调兵遣将",
@@ -239,37 +239,6 @@
             "position": {
                 "x": 2252,
                 "y": 538
-            }
-        }
-    },
-    "拿丈八": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    496,
-                    265,
-                    70,
-                    58
-                ],
-                "expected": [
-                    "蛇矛",
-                    "丈八",
-                    "范围3"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 1111,
-        "next": [
-            "拿丈八"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 4908,
-                "y": 782
             }
         }
     },
@@ -827,43 +796,6 @@
             }
         }
     },
-    "确认已选择夺": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    550,
-                    538,
-                    116,
-                    22
-                ],
-                "expected": [
-                    "劫营"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    601,
-                    453,
-                    85,
-                    27
-                ]
-            }
-        },
-        "post_delay": 1111,
-        "next": [
-            "拿丈八"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 4588,
-                "y": 766
-            }
-        }
-    },
     "确认已选择手牌，点击1": {
         "recognition": {
             "type": "OCR",
@@ -1154,37 +1086,6 @@
             }
         }
     },
-    "识别夺粮劫营": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    589,
-                    527,
-                    55,
-                    53
-                ],
-                "expected": [
-                    "夺粮",
-                    "劫营"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 500,
-        "next": [
-            "确认已选择夺",
-            "识别夺粮劫营"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 4268,
-                "y": 772
-            }
-        }
-    },
     "识别调兵遣将": {
         "recognition": {
             "type": "OCR",
@@ -1310,27 +1211,18 @@
             "type": "OCR",
             "param": {
                 "roi": [
-                    561,
-                    298,
-                    196,
-                    268
+                    362,
+                    294,
+                    549,
+                    262
                 ],
                 "expected": [
-                    "失败",
                     "返回列表"
                 ]
             }
         },
         "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
+            "type": "Click"
         },
         "post_delay": 1111,
         "next": [
@@ -1349,27 +1241,18 @@
             "type": "OCR",
             "param": {
                 "roi": [
-                    561,
-                    298,
-                    196,
-                    268
+                    362,
+                    294,
+                    549,
+                    262
                 ],
                 "expected": [
-                    "失败",
                     "返回列表"
                 ]
             }
         },
         "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
+            "type": "Click"
         },
         "post_delay": 1111,
         "next": [
@@ -1388,27 +1271,18 @@
             "type": "OCR",
             "param": {
                 "roi": [
-                    561,
-                    298,
-                    196,
-                    268
+                    362,
+                    294,
+                    549,
+                    262
                 ],
                 "expected": [
-                    "失败",
                     "返回列表"
                 ]
             }
         },
         "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
+            "type": "Click"
         },
         "post_delay": 1111,
         "next": [
@@ -1427,27 +1301,18 @@
             "type": "OCR",
             "param": {
                 "roi": [
-                    561,
-                    298,
-                    196,
-                    268
+                    362,
+                    294,
+                    549,
+                    262
                 ],
                 "expected": [
-                    "失败",
                     "返回列表"
                 ]
             }
         },
         "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
+            "type": "Click"
         },
         "post_delay": 1111,
         "next": [
@@ -1682,8 +1547,8 @@
         ],
         "$__mpe_code": {
             "position": {
-                "x": 6376,
-                "y": 3748
+                "x": 6330,
+                "y": 2771
             }
         }
     },

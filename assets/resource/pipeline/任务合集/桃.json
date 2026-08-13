@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786377842553,
+            "lastSyncTime": 1786589461901,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\桃.json",
             "savedViewport": {
-                "x": -410,
-                "y": -56,
-                "zoom": 0.4
+                "x": -3214,
+                "y": -1114,
+                "zoom": 0.75
             },
             "filename": "桃",
             "version": "v1.7.6"
@@ -699,27 +699,18 @@
             "type": "OCR",
             "param": {
                 "roi": [
-                    561,
-                    298,
-                    196,
-                    268
+                    362,
+                    294,
+                    549,
+                    262
                 ],
                 "expected": [
-                    "失败",
                     "返回列表"
                 ]
             }
         },
         "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
+            "type": "Click"
         },
         "post_delay": 1111,
         "next": [
@@ -738,27 +729,18 @@
             "type": "OCR",
             "param": {
                 "roi": [
-                    561,
-                    298,
-                    196,
-                    268
+                    362,
+                    294,
+                    549,
+                    262
                 ],
                 "expected": [
-                    "失败",
                     "返回列表"
                 ]
             }
         },
         "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
+            "type": "Click"
         },
         "post_delay": 1111,
         "next": [

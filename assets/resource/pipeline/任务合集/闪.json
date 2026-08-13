@@ -3,12 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
+            "lastSyncTime": 1786589719352,
+            "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\闪.json",
-            "lastSyncTime": 1786431610992,
             "savedViewport": {
-                "x": -2100,
-                "y": -7102,
-                "zoom": 0.92
+                "x": -4913,
+                "y": -8118,
+                "zoom": 1.06
             },
             "filename": "闪",
             "version": "v1.7.6"
@@ -19,122 +20,6 @@
             "position": {
                 "x": 8389,
                 "y": 3556
-            }
-        }
-    },
-    "闪_出闪": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    487,
-                    441,
-                    62,
-                    25
-                ],
-                "expected": [
-                    "闪"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_出闪",
-            "闪_结束"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3952,
-                "y": 1222
-            }
-        }
-    },
-    "闪_出闪_副本69": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    487,
-                    441,
-                    62,
-                    25
-                ],
-                "expected": [
-                    "闪"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_出闪_副本69",
-            "闪_结束_副本77"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3964,
-                "y": 2259
-            }
-        }
-    },
-    "闪_出闪_副本69_副本81": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    487,
-                    441,
-                    62,
-                    25
-                ],
-                "expected": [
-                    "闪"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_出闪_副本69_副本81",
-            "闪_结束_副本77_副本89"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3948,
-                "y": 3121
-            }
-        }
-    },
-    "闪_出闪_副本69_副本81_副本93": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    487,
-                    441,
-                    62,
-                    25
-                ],
-                "expected": [
-                    "闪"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_出闪_副本69_副本81_副本93",
-            "闪_结束_副本77_副本89_副本101"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3852,
-                "y": 4018
             }
         }
     },
@@ -241,154 +126,6 @@
             }
         }
     },
-    "闪_整理手牌，闪": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    26,
-                    634,
-                    46,
-                    26
-                ],
-                "expected": [
-                    "整理"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    38,
-                    625,
-                    23,
-                    17
-                ]
-            }
-        },
-        "repeat": 3,
-        "next": [
-            "闪_识别调兵遣将"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3628,
-                "y": 1548
-            }
-        }
-    },
-    "闪_整理手牌，闪_副本71": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    26,
-                    634,
-                    46,
-                    26
-                ],
-                "expected": [
-                    "整理"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    38,
-                    625,
-                    23,
-                    17
-                ]
-            }
-        },
-        "repeat": 3,
-        "next": [
-            "闪_识别调兵遣将_副本79"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3644,
-                "y": 2573
-            }
-        }
-    },
-    "闪_整理手牌，闪_副本71_副本83": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    26,
-                    634,
-                    46,
-                    26
-                ],
-                "expected": [
-                    "整理"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    38,
-                    625,
-                    23,
-                    17
-                ]
-            }
-        },
-        "repeat": 3,
-        "next": [
-            "闪_识别调兵遣将_副本79_副本91"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3628,
-                "y": 3435
-            }
-        }
-    },
-    "闪_整理手牌，闪_副本71_副本83_副本95": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    26,
-                    634,
-                    46,
-                    26
-                ],
-                "expected": [
-                    "整理"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    38,
-                    625,
-                    23,
-                    17
-                ]
-            }
-        },
-        "repeat": 3,
-        "next": [
-            "闪_识别调兵遣将_副本79_副本91_副本103"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3521,
-                "y": 4332
-            }
-        }
-    },
     "查找数字，闪": {
         "recognition": {
             "type": "OCR",
@@ -419,530 +156,6 @@
             }
         }
     },
-    "闪_点击2": {
-        "recognition": {
-            "type": "DirectHit",
-            "param": {
-                "roi": [
-                    1168,
-                    519,
-                    65,
-                    87
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 0,
-        "next": [
-            "闪_确定调"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3312,
-                "y": 1137
-            }
-        }
-    },
-    "闪_点击2_副本72": {
-        "recognition": {
-            "type": "DirectHit",
-            "param": {
-                "roi": [
-                    1168,
-                    519,
-                    65,
-                    87
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 0,
-        "next": [
-            "闪_确定调_副本74"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3324,
-                "y": 2174
-            }
-        }
-    },
-    "闪_点击2_副本72_副本84": {
-        "recognition": {
-            "type": "DirectHit",
-            "param": {
-                "roi": [
-                    1168,
-                    519,
-                    65,
-                    87
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 0,
-        "next": [
-            "闪_确定调_副本74_副本86"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3308,
-                "y": 3036
-            }
-        }
-    },
-    "闪_点击2_副本72_副本84_副本96": {
-        "recognition": {
-            "type": "DirectHit",
-            "param": {
-                "roi": [
-                    1168,
-                    519,
-                    65,
-                    87
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 0,
-        "next": [
-            "闪_确定调_副本74_副本86_副本98"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3212,
-                "y": 3933
-            }
-        }
-    },
-    "闪_点击开始，闪": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    878,
-                    315,
-                    27,
-                    22
-                ],
-                "expected": [
-                    "27"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    1098,
-                    602,
-                    154,
-                    29
-                ]
-            }
-        },
-        "post_delay": 2000,
-        "next": [
-            "闪_点击开始，闪",
-            "闪_整理手牌，闪"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3312,
-                "y": 1536
-            }
-        }
-    },
-    "闪_点击开始，闪_副本73": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    878,
-                    315,
-                    27,
-                    22
-                ],
-                "expected": [
-                    "27"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    1098,
-                    602,
-                    154,
-                    29
-                ]
-            }
-        },
-        "post_delay": 2000,
-        "next": [
-            "闪_点击开始，闪_副本73",
-            "闪_整理手牌，闪_副本71"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3324,
-                "y": 2573
-            }
-        }
-    },
-    "闪_点击开始，闪_副本73_副本85": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    878,
-                    315,
-                    27,
-                    22
-                ],
-                "expected": [
-                    "27"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    1098,
-                    602,
-                    154,
-                    29
-                ]
-            }
-        },
-        "post_delay": 2000,
-        "next": [
-            "闪_点击开始，闪_副本73_副本85",
-            "闪_整理手牌，闪_副本71_副本83"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3308,
-                "y": 3435
-            }
-        }
-    },
-    "闪_点击开始，闪_副本73_副本85_副本97": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    878,
-                    315,
-                    27,
-                    22
-                ],
-                "expected": [
-                    "27"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    1098,
-                    602,
-                    154,
-                    29
-                ]
-            }
-        },
-        "post_delay": 2000,
-        "next": [
-            "闪_点击开始，闪_副本73_副本85_副本97",
-            "闪_整理手牌，闪_副本71_副本83_副本95"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3212,
-                "y": 4332
-            }
-        }
-    },
-    "闪_确定调": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    605,
-                    450,
-                    80,
-                    32
-                ],
-                "expected": [
-                    "确定"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 2000,
-        "next": [
-            "闪_出闪",
-            "闪_识别调兵遣将"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3632,
-                "y": 1238
-            }
-        }
-    },
-    "闪_确定调_副本74": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    605,
-                    450,
-                    80,
-                    32
-                ],
-                "expected": [
-                    "确定"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 2000,
-        "next": [
-            "闪_出闪_副本69",
-            "闪_识别调兵遣将_副本79"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3644,
-                "y": 2275
-            }
-        }
-    },
-    "闪_确定调_副本74_副本86": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    605,
-                    450,
-                    80,
-                    32
-                ],
-                "expected": [
-                    "确定"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 2000,
-        "next": [
-            "闪_出闪_副本69_副本81",
-            "闪_识别调兵遣将_副本79_副本91"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3628,
-                "y": 3137
-            }
-        }
-    },
-    "闪_确定调_副本74_副本86_副本98": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    605,
-                    450,
-                    80,
-                    32
-                ],
-                "expected": [
-                    "确定"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 2000,
-        "next": [
-            "闪_出闪_副本69_副本81_副本93",
-            "闪_识别调兵遣将_副本79_副本91_副本103"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3532,
-                "y": 4034
-            }
-        }
-    },
-    "闪_确认已选择手牌，点击1": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    404,
-                    536,
-                    417,
-                    23
-                ],
-                "expected": [
-                    "将"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    604,
-                    107,
-                    79,
-                    94
-                ]
-            }
-        },
-        "post_delay": 500,
-        "next": [
-            "闪_点击2"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 2992,
-                "y": 1150
-            }
-        }
-    },
-    "闪_确认已选择手牌，点击1_副本76": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    404,
-                    536,
-                    417,
-                    23
-                ],
-                "expected": [
-                    "将"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    604,
-                    107,
-                    79,
-                    94
-                ]
-            }
-        },
-        "post_delay": 500,
-        "next": [
-            "闪_点击2_副本72"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3004,
-                "y": 2187
-            }
-        }
-    },
-    "闪_确认已选择手牌，点击1_副本76_副本88": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    404,
-                    536,
-                    417,
-                    23
-                ],
-                "expected": [
-                    "将"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    604,
-                    107,
-                    79,
-                    94
-                ]
-            }
-        },
-        "post_delay": 500,
-        "next": [
-            "闪_点击2_副本72_副本84"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 2988,
-                "y": 3049
-            }
-        }
-    },
-    "闪_确认已选择手牌，点击1_副本76_副本88_副本100": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    404,
-                    536,
-                    417,
-                    23
-                ],
-                "expected": [
-                    "将"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    604,
-                    107,
-                    79,
-                    94
-                ]
-            }
-        },
-        "post_delay": 500,
-        "next": [
-            "闪_点击2_副本72_副本84_副本96"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 2892,
-                "y": 3946
-            }
-        }
-    },
     "确认打开关卡列表，闪": {
         "recognition": {
             "type": "OCR",
@@ -966,242 +179,6 @@
             "position": {
                 "x": 1612,
                 "y": 358
-            }
-        }
-    },
-    "闪_结束": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    774,
-                    450,
-                    106,
-                    31
-                ],
-                "expected": [
-                    "结束出牌"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_结束",
-            "闪_返回列表，调，闪"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5232,
-                "y": 1222
-            }
-        }
-    },
-    "闪_结束_副本77": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    774,
-                    450,
-                    106,
-                    31
-                ],
-                "expected": [
-                    "结束出牌"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_结束_副本77",
-            "闪_返回列表，对局_副本106_副本109"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5244,
-                "y": 2259
-            }
-        }
-    },
-    "闪_结束_副本77_副本89": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    774,
-                    450,
-                    106,
-                    31
-                ],
-                "expected": [
-                    "结束出牌"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_结束_副本77_副本89",
-            "闪_返回列表，对局_副本106_副本108"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5228,
-                "y": 3121
-            }
-        }
-    },
-    "闪_结束_副本77_副本89_副本101": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    774,
-                    450,
-                    106,
-                    31
-                ],
-                "expected": [
-                    "结束出牌"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_结束_副本77_副本89_副本101",
-            "闪_返回列表，对局_副本106_副本107"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5132,
-                "y": 4018
-            }
-        }
-    },
-    "闪_识别调兵遣将": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    401,
-                    527,
-                    442,
-                    62
-                ],
-                "expected": [
-                    "调兵",
-                    "遣将"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_确认已选择手牌，点击1",
-            "闪_识别调兵遣将"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3952,
-                "y": 1522
-            }
-        }
-    },
-    "闪_识别调兵遣将_副本79": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    401,
-                    527,
-                    442,
-                    62
-                ],
-                "expected": [
-                    "调兵",
-                    "遣将"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_确认已选择手牌，点击1_副本76",
-            "闪_识别调兵遣将_副本79"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3964,
-                "y": 2559
-            }
-        }
-    },
-    "闪_识别调兵遣将_副本79_副本91": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    401,
-                    527,
-                    442,
-                    62
-                ],
-                "expected": [
-                    "调兵",
-                    "遣将"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_确认已选择手牌，点击1_副本76_副本88",
-            "闪_识别调兵遣将_副本79_副本91"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3948,
-                "y": 3421
-            }
-        }
-    },
-    "闪_识别调兵遣将_副本79_副本91_副本103": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    401,
-                    527,
-                    442,
-                    62
-                ],
-                "expected": [
-                    "调兵",
-                    "遣将"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_确认已选择手牌，点击1_副本76_副本88_副本100",
-            "闪_识别调兵遣将_副本79_副本91_副本103"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3852,
-                "y": 4318
             }
         }
     },
@@ -1394,6 +371,2294 @@
             }
         }
     },
+    "闪_出闪": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    487,
+                    441,
+                    62,
+                    25
+                ],
+                "expected": [
+                    "闪"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_出闪",
+            "闪_结束"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3952,
+                "y": 1222
+            }
+        }
+    },
+    "闪_出闪_副本170": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    487,
+                    441,
+                    62,
+                    25
+                ],
+                "expected": [
+                    "闪"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_出闪_副本170",
+            "闪_结束_副本194"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3842,
+                "y": 4837
+            }
+        }
+    },
+    "闪_出闪_副本69": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    487,
+                    441,
+                    62,
+                    25
+                ],
+                "expected": [
+                    "闪"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_出闪_副本69",
+            "闪_结束_副本77"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3964,
+                "y": 2259
+            }
+        }
+    },
+    "闪_出闪_副本69_副本171": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    487,
+                    441,
+                    62,
+                    25
+                ],
+                "expected": [
+                    "闪"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_出闪_副本69_副本171",
+            "闪_结束_副本77_副本195"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3854,
+                "y": 5874
+            }
+        }
+    },
+    "闪_出闪_副本69_副本81": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    487,
+                    441,
+                    62,
+                    25
+                ],
+                "expected": [
+                    "闪"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_出闪_副本69_副本81",
+            "闪_结束_副本77_副本89"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3948,
+                "y": 3121
+            }
+        }
+    },
+    "闪_出闪_副本69_副本81_副本172": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    487,
+                    441,
+                    62,
+                    25
+                ],
+                "expected": [
+                    "闪"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_出闪_副本69_副本81_副本172",
+            "闪_结束_副本77_副本89_副本196"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3838,
+                "y": 6736
+            }
+        }
+    },
+    "闪_出闪_副本69_副本81_副本93": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    487,
+                    441,
+                    62,
+                    25
+                ],
+                "expected": [
+                    "闪"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_出闪_副本69_副本81_副本93",
+            "闪_结束_副本77_副本89_副本101"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3852,
+                "y": 4018
+            }
+        }
+    },
+    "闪_出闪_副本69_副本81_副本93_副本173": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    487,
+                    441,
+                    62,
+                    25
+                ],
+                "expected": [
+                    "闪"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_出闪_副本69_副本81_副本93_副本173",
+            "闪_结束_副本77_副本89_副本101_副本197"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3742,
+                "y": 7633
+            }
+        }
+    },
+    "闪_整理手牌，闪": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    26,
+                    634,
+                    46,
+                    26
+                ],
+                "expected": [
+                    "整理"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    38,
+                    625,
+                    23,
+                    17
+                ]
+            }
+        },
+        "repeat": 3,
+        "next": [
+            "闪_识别调兵遣将"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3628,
+                "y": 1548
+            }
+        }
+    },
+    "闪_整理手牌，闪_副本174": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    26,
+                    634,
+                    46,
+                    26
+                ],
+                "expected": [
+                    "整理"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    38,
+                    625,
+                    23,
+                    17
+                ]
+            }
+        },
+        "repeat": 3,
+        "next": [
+            "闪_识别调兵遣将_副本198"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3518,
+                "y": 5163
+            }
+        }
+    },
+    "闪_整理手牌，闪_副本71": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    26,
+                    634,
+                    46,
+                    26
+                ],
+                "expected": [
+                    "整理"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    38,
+                    625,
+                    23,
+                    17
+                ]
+            }
+        },
+        "repeat": 3,
+        "next": [
+            "闪_识别调兵遣将_副本79"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3644,
+                "y": 2573
+            }
+        }
+    },
+    "闪_整理手牌，闪_副本71_副本175": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    26,
+                    634,
+                    46,
+                    26
+                ],
+                "expected": [
+                    "整理"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    38,
+                    625,
+                    23,
+                    17
+                ]
+            }
+        },
+        "repeat": 3,
+        "next": [
+            "闪_识别调兵遣将_副本79_副本199"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3534,
+                "y": 6188
+            }
+        }
+    },
+    "闪_整理手牌，闪_副本71_副本83": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    26,
+                    634,
+                    46,
+                    26
+                ],
+                "expected": [
+                    "整理"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    38,
+                    625,
+                    23,
+                    17
+                ]
+            }
+        },
+        "repeat": 3,
+        "next": [
+            "闪_识别调兵遣将_副本79_副本91"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3628,
+                "y": 3435
+            }
+        }
+    },
+    "闪_整理手牌，闪_副本71_副本83_副本176": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    26,
+                    634,
+                    46,
+                    26
+                ],
+                "expected": [
+                    "整理"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    38,
+                    625,
+                    23,
+                    17
+                ]
+            }
+        },
+        "repeat": 3,
+        "next": [
+            "闪_识别调兵遣将_副本79_副本91_副本200"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3518,
+                "y": 7050
+            }
+        }
+    },
+    "闪_整理手牌，闪_副本71_副本83_副本95": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    26,
+                    634,
+                    46,
+                    26
+                ],
+                "expected": [
+                    "整理"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    38,
+                    625,
+                    23,
+                    17
+                ]
+            }
+        },
+        "repeat": 3,
+        "next": [
+            "闪_识别调兵遣将_副本79_副本91_副本103"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3521,
+                "y": 4332
+            }
+        }
+    },
+    "闪_整理手牌，闪_副本71_副本83_副本95_副本177": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    26,
+                    634,
+                    46,
+                    26
+                ],
+                "expected": [
+                    "整理"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    38,
+                    625,
+                    23,
+                    17
+                ]
+            }
+        },
+        "repeat": 3,
+        "next": [
+            "闪_识别调兵遣将_副本79_副本91_副本103_副本201"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3411,
+                "y": 7947
+            }
+        }
+    },
+    "闪_点击2": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    1168,
+                    519,
+                    65,
+                    87
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 0,
+        "next": [
+            "闪_确定调"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3312,
+                "y": 1137
+            }
+        }
+    },
+    "闪_点击2_副本178": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    1168,
+                    519,
+                    65,
+                    87
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 0,
+        "next": [
+            "闪_确定调_副本186"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3202,
+                "y": 4752
+            }
+        }
+    },
+    "闪_点击2_副本72": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    1168,
+                    519,
+                    65,
+                    87
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 0,
+        "next": [
+            "闪_确定调_副本74"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3324,
+                "y": 2174
+            }
+        }
+    },
+    "闪_点击2_副本72_副本179": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    1168,
+                    519,
+                    65,
+                    87
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 0,
+        "next": [
+            "闪_确定调_副本74_副本187"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3214,
+                "y": 5789
+            }
+        }
+    },
+    "闪_点击2_副本72_副本84": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    1168,
+                    519,
+                    65,
+                    87
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 0,
+        "next": [
+            "闪_确定调_副本74_副本86"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3308,
+                "y": 3036
+            }
+        }
+    },
+    "闪_点击2_副本72_副本84_副本180": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    1168,
+                    519,
+                    65,
+                    87
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 0,
+        "next": [
+            "闪_确定调_副本74_副本86_副本188"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3198,
+                "y": 6651
+            }
+        }
+    },
+    "闪_点击2_副本72_副本84_副本96": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    1168,
+                    519,
+                    65,
+                    87
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 0,
+        "next": [
+            "闪_确定调_副本74_副本86_副本98"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3212,
+                "y": 3933
+            }
+        }
+    },
+    "闪_点击2_副本72_副本84_副本96_副本181": {
+        "recognition": {
+            "type": "DirectHit",
+            "param": {
+                "roi": [
+                    1168,
+                    519,
+                    65,
+                    87
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 0,
+        "next": [
+            "闪_确定调_副本74_副本86_副本98_副本189"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3102,
+                "y": 7548
+            }
+        }
+    },
+    "闪_点击开始，闪": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    878,
+                    315,
+                    27,
+                    22
+                ],
+                "expected": [
+                    "27"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "闪_点击开始，闪",
+            "闪_整理手牌，闪"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3312,
+                "y": 1536
+            }
+        }
+    },
+    "闪_点击开始，闪_副本182": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    878,
+                    315,
+                    27,
+                    22
+                ],
+                "expected": [
+                    "27"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "闪_点击开始，闪_副本182",
+            "闪_整理手牌，闪_副本174"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3202,
+                "y": 5151
+            }
+        }
+    },
+    "闪_点击开始，闪_副本73": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    878,
+                    315,
+                    27,
+                    22
+                ],
+                "expected": [
+                    "27"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "闪_点击开始，闪_副本73",
+            "闪_整理手牌，闪_副本71"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3324,
+                "y": 2573
+            }
+        }
+    },
+    "闪_点击开始，闪_副本73_副本183": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    878,
+                    315,
+                    27,
+                    22
+                ],
+                "expected": [
+                    "27"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "闪_点击开始，闪_副本73_副本183",
+            "闪_整理手牌，闪_副本71_副本175"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3214,
+                "y": 6188
+            }
+        }
+    },
+    "闪_点击开始，闪_副本73_副本85": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    878,
+                    315,
+                    27,
+                    22
+                ],
+                "expected": [
+                    "27"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "闪_点击开始，闪_副本73_副本85",
+            "闪_整理手牌，闪_副本71_副本83"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3308,
+                "y": 3435
+            }
+        }
+    },
+    "闪_点击开始，闪_副本73_副本85_副本184": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    878,
+                    315,
+                    27,
+                    22
+                ],
+                "expected": [
+                    "27"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "闪_点击开始，闪_副本73_副本85_副本184",
+            "闪_整理手牌，闪_副本71_副本83_副本176"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3208,
+                "y": 7047
+            }
+        }
+    },
+    "闪_点击开始，闪_副本73_副本85_副本97": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    878,
+                    315,
+                    27,
+                    22
+                ],
+                "expected": [
+                    "27"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "闪_点击开始，闪_副本73_副本85_副本97",
+            "闪_整理手牌，闪_副本71_副本83_副本95"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3212,
+                "y": 4332
+            }
+        }
+    },
+    "闪_点击开始，闪_副本73_副本85_副本97_副本185": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    878,
+                    315,
+                    27,
+                    22
+                ],
+                "expected": [
+                    "27"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1098,
+                    602,
+                    154,
+                    29
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "闪_点击开始，闪_副本73_副本85_副本97_副本185",
+            "闪_整理手牌，闪_副本71_副本83_副本95_副本177"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3102,
+                "y": 7947
+            }
+        }
+    },
+    "闪_确定调": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    605,
+                    450,
+                    80,
+                    32
+                ],
+                "expected": [
+                    "确定"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 2000,
+        "next": [
+            "闪_出闪",
+            "闪_识别调兵遣将"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3632,
+                "y": 1238
+            }
+        }
+    },
+    "闪_确定调_副本186": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    605,
+                    450,
+                    80,
+                    32
+                ],
+                "expected": [
+                    "确定"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 2000,
+        "next": [
+            "闪_出闪_副本170",
+            "闪_识别调兵遣将_副本198"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3522,
+                "y": 4853
+            }
+        }
+    },
+    "闪_确定调_副本74": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    605,
+                    450,
+                    80,
+                    32
+                ],
+                "expected": [
+                    "确定"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 2000,
+        "next": [
+            "闪_出闪_副本69",
+            "闪_识别调兵遣将_副本79"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3644,
+                "y": 2275
+            }
+        }
+    },
+    "闪_确定调_副本74_副本187": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    605,
+                    450,
+                    80,
+                    32
+                ],
+                "expected": [
+                    "确定"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 2000,
+        "next": [
+            "闪_出闪_副本69_副本171",
+            "闪_识别调兵遣将_副本79_副本199"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3534,
+                "y": 5890
+            }
+        }
+    },
+    "闪_确定调_副本74_副本86": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    605,
+                    450,
+                    80,
+                    32
+                ],
+                "expected": [
+                    "确定"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 2000,
+        "next": [
+            "闪_出闪_副本69_副本81",
+            "闪_识别调兵遣将_副本79_副本91"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3628,
+                "y": 3137
+            }
+        }
+    },
+    "闪_确定调_副本74_副本86_副本188": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    605,
+                    450,
+                    80,
+                    32
+                ],
+                "expected": [
+                    "确定"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 2000,
+        "next": [
+            "闪_出闪_副本69_副本81_副本172",
+            "闪_识别调兵遣将_副本79_副本91_副本200"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3518,
+                "y": 6752
+            }
+        }
+    },
+    "闪_确定调_副本74_副本86_副本98": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    605,
+                    450,
+                    80,
+                    32
+                ],
+                "expected": [
+                    "确定"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 2000,
+        "next": [
+            "闪_出闪_副本69_副本81_副本93",
+            "闪_识别调兵遣将_副本79_副本91_副本103"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3532,
+                "y": 4034
+            }
+        }
+    },
+    "闪_确定调_副本74_副本86_副本98_副本189": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    605,
+                    450,
+                    80,
+                    32
+                ],
+                "expected": [
+                    "确定"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 2000,
+        "next": [
+            "闪_出闪_副本69_副本81_副本93_副本173",
+            "闪_识别调兵遣将_副本79_副本91_副本103_副本201"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3422,
+                "y": 7649
+            }
+        }
+    },
+    "闪_确认已选择手牌，点击1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    404,
+                    536,
+                    417,
+                    23
+                ],
+                "expected": [
+                    "将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    604,
+                    107,
+                    79,
+                    94
+                ]
+            }
+        },
+        "post_delay": 500,
+        "next": [
+            "闪_点击2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2992,
+                "y": 1150
+            }
+        }
+    },
+    "闪_确认已选择手牌，点击1_副本190": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    404,
+                    536,
+                    417,
+                    23
+                ],
+                "expected": [
+                    "将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    604,
+                    107,
+                    79,
+                    94
+                ]
+            }
+        },
+        "post_delay": 500,
+        "next": [
+            "闪_点击2_副本178"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2882,
+                "y": 4765
+            }
+        }
+    },
+    "闪_确认已选择手牌，点击1_副本76": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    404,
+                    536,
+                    417,
+                    23
+                ],
+                "expected": [
+                    "将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    604,
+                    107,
+                    79,
+                    94
+                ]
+            }
+        },
+        "post_delay": 500,
+        "next": [
+            "闪_点击2_副本72"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3004,
+                "y": 2187
+            }
+        }
+    },
+    "闪_确认已选择手牌，点击1_副本76_副本191": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    404,
+                    536,
+                    417,
+                    23
+                ],
+                "expected": [
+                    "将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    604,
+                    107,
+                    79,
+                    94
+                ]
+            }
+        },
+        "post_delay": 500,
+        "next": [
+            "闪_点击2_副本72_副本179"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2894,
+                "y": 5802
+            }
+        }
+    },
+    "闪_确认已选择手牌，点击1_副本76_副本88": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    404,
+                    536,
+                    417,
+                    23
+                ],
+                "expected": [
+                    "将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    604,
+                    107,
+                    79,
+                    94
+                ]
+            }
+        },
+        "post_delay": 500,
+        "next": [
+            "闪_点击2_副本72_副本84"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2988,
+                "y": 3049
+            }
+        }
+    },
+    "闪_确认已选择手牌，点击1_副本76_副本88_副本100": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    404,
+                    536,
+                    417,
+                    23
+                ],
+                "expected": [
+                    "将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    604,
+                    107,
+                    79,
+                    94
+                ]
+            }
+        },
+        "post_delay": 500,
+        "next": [
+            "闪_点击2_副本72_副本84_副本96"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2892,
+                "y": 3946
+            }
+        }
+    },
+    "闪_确认已选择手牌，点击1_副本76_副本88_副本100_副本193": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    404,
+                    536,
+                    417,
+                    23
+                ],
+                "expected": [
+                    "将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    604,
+                    107,
+                    79,
+                    94
+                ]
+            }
+        },
+        "post_delay": 500,
+        "next": [
+            "闪_点击2_副本72_副本84_副本96_副本181"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2782,
+                "y": 7561
+            }
+        }
+    },
+    "闪_确认已选择手牌，点击1_副本76_副本88_副本192": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    404,
+                    536,
+                    417,
+                    23
+                ],
+                "expected": [
+                    "将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    604,
+                    107,
+                    79,
+                    94
+                ]
+            }
+        },
+        "post_delay": 500,
+        "next": [
+            "闪_点击2_副本72_副本84_副本180"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2878,
+                "y": 6664
+            }
+        }
+    },
+    "闪_结束": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    450,
+                    106,
+                    31
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_结束",
+            "闪_返回列表，调，闪"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5232,
+                "y": 1222
+            }
+        }
+    },
+    "闪_结束_副本194": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    450,
+                    106,
+                    31
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_结束_副本194",
+            "闪_返回列表，调，闪_副本202"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5122,
+                "y": 4837
+            }
+        }
+    },
+    "闪_结束_副本77": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    450,
+                    106,
+                    31
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_结束_副本77",
+            "闪_返回列表，对局_副本106_副本109"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5244,
+                "y": 2259
+            }
+        }
+    },
+    "闪_结束_副本77_副本195": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    450,
+                    106,
+                    31
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_结束_副本77_副本195",
+            "闪_返回列表，对局_副本106_副本109_副本205"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5134,
+                "y": 5874
+            }
+        }
+    },
+    "闪_结束_副本77_副本89": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    450,
+                    106,
+                    31
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_结束_副本77_副本89",
+            "闪_返回列表，对局_副本106_副本108"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5228,
+                "y": 3121
+            }
+        }
+    },
+    "闪_结束_副本77_副本89_副本101": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    450,
+                    106,
+                    31
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_结束_副本77_副本89_副本101",
+            "闪_返回列表，对局_副本106_副本107"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5132,
+                "y": 4018
+            }
+        }
+    },
+    "闪_结束_副本77_副本89_副本101_副本197": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    450,
+                    106,
+                    31
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_结束_副本77_副本89_副本101_副本197",
+            "闪_返回列表，对局_副本106_副本107_副本203"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5022,
+                "y": 7633
+            }
+        }
+    },
+    "闪_结束_副本77_副本89_副本196": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    774,
+                    450,
+                    106,
+                    31
+                ],
+                "expected": [
+                    "结束出牌"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_结束_副本77_副本89_副本196",
+            "闪_返回列表，对局_副本106_副本108_副本204"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5118,
+                "y": 6736
+            }
+        }
+    },
+    "闪_识别调兵遣将": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    401,
+                    527,
+                    442,
+                    62
+                ],
+                "expected": [
+                    "调兵",
+                    "遣将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_确认已选择手牌，点击1",
+            "闪_识别调兵遣将"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3952,
+                "y": 1522
+            }
+        }
+    },
+    "闪_识别调兵遣将_副本198": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    401,
+                    527,
+                    442,
+                    62
+                ],
+                "expected": [
+                    "调兵",
+                    "遣将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_确认已选择手牌，点击1_副本190",
+            "闪_识别调兵遣将_副本198"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3842,
+                "y": 5137
+            }
+        }
+    },
+    "闪_识别调兵遣将_副本79": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    401,
+                    527,
+                    442,
+                    62
+                ],
+                "expected": [
+                    "调兵",
+                    "遣将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_确认已选择手牌，点击1_副本76",
+            "闪_识别调兵遣将_副本79"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3964,
+                "y": 2559
+            }
+        }
+    },
+    "闪_识别调兵遣将_副本79_副本199": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    401,
+                    527,
+                    442,
+                    62
+                ],
+                "expected": [
+                    "调兵",
+                    "遣将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_确认已选择手牌，点击1_副本76_副本191",
+            "闪_识别调兵遣将_副本79_副本199"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3854,
+                "y": 6174
+            }
+        }
+    },
+    "闪_识别调兵遣将_副本79_副本91": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    401,
+                    527,
+                    442,
+                    62
+                ],
+                "expected": [
+                    "调兵",
+                    "遣将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_确认已选择手牌，点击1_副本76_副本88",
+            "闪_识别调兵遣将_副本79_副本91"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3948,
+                "y": 3421
+            }
+        }
+    },
+    "闪_识别调兵遣将_副本79_副本91_副本103": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    401,
+                    527,
+                    442,
+                    62
+                ],
+                "expected": [
+                    "调兵",
+                    "遣将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_确认已选择手牌，点击1_副本76_副本88_副本100",
+            "闪_识别调兵遣将_副本79_副本91_副本103"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3852,
+                "y": 4318
+            }
+        }
+    },
+    "闪_识别调兵遣将_副本79_副本91_副本103_副本201": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    401,
+                    527,
+                    442,
+                    62
+                ],
+                "expected": [
+                    "调兵",
+                    "遣将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_确认已选择手牌，点击1_副本76_副本88_副本100_副本193",
+            "闪_识别调兵遣将_副本79_副本91_副本103_副本201"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3742,
+                "y": 7933
+            }
+        }
+    },
+    "闪_识别调兵遣将_副本79_副本91_副本200": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    401,
+                    527,
+                    442,
+                    62
+                ],
+                "expected": [
+                    "调兵",
+                    "遣将"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "闪_确认已选择手牌，点击1_副本76_副本88_副本192",
+            "闪_识别调兵遣将_副本79_副本91_副本200"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3838,
+                "y": 7036
+            }
+        }
+    },
+    "闪_返回列表，对局_副本106_副本107": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    362,
+                    294,
+                    549,
+                    262
+                ],
+                "expected": [
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1111,
+        "next": [
+            "闪_返回列表，对局_副本106_副本107",
+            "闪_点击开始，闪_副本182"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5433,
+                "y": 3993
+            }
+        }
+    },
+    "闪_返回列表，对局_副本106_副本107_副本203": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    362,
+                    294,
+                    549,
+                    262
+                ],
+                "expected": [
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1111,
+        "next": [
+            "闪_返回列表，对局_副本106_副本107_副本203",
+            "闪_退出解卦挑战，闪"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5330,
+                "y": 7600
+            }
+        }
+    },
+    "闪_返回列表，对局_副本106_副本108": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    362,
+                    294,
+                    549,
+                    262
+                ],
+                "expected": [
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1111,
+        "next": [
+            "闪_返回列表，对局_副本106_副本108",
+            "闪_点击开始，闪_副本73_副本85_副本97"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5623,
+                "y": 3121
+            }
+        }
+    },
+    "闪_返回列表，对局_副本106_副本108_副本204": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    362,
+                    294,
+                    549,
+                    262
+                ],
+                "expected": [
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1111,
+        "next": [
+            "闪_返回列表，对局_副本106_副本108_副本204",
+            "闪_点击开始，闪_副本73_副本85_副本97_副本185"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5513,
+                "y": 6736
+            }
+        }
+    },
+    "闪_返回列表，对局_副本106_副本109": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    362,
+                    294,
+                    549,
+                    262
+                ],
+                "expected": [
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1111,
+        "next": [
+            "闪_返回列表，对局_副本106_副本109",
+            "闪_点击开始，闪_副本73_副本85"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5640,
+                "y": 2267
+            }
+        }
+    },
+    "闪_返回列表，对局_副本106_副本109_副本205": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    362,
+                    294,
+                    549,
+                    262
+                ],
+                "expected": [
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1111,
+        "next": [
+            "闪_返回列表，对局_副本106_副本109_副本205",
+            "闪_点击开始，闪_副本73_副本85_副本184"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5530,
+                "y": 5882
+            }
+        }
+    },
+    "闪_返回列表，调，闪": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    362,
+                    294,
+                    549,
+                    262
+                ],
+                "expected": [
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1111,
+        "next": [
+            "闪_返回列表，调，闪",
+            "闪_点击开始，闪_副本73"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5526,
+                "y": 1201
+            }
+        }
+    },
+    "闪_返回列表，调，闪_副本202": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    362,
+                    294,
+                    549,
+                    262
+                ],
+                "expected": [
+                    "返回列表"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1111,
+        "next": [
+            "闪_返回列表，调，闪_副本202",
+            "闪_点击开始，闪_副本73_副本183"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5416,
+                "y": 4816
+            }
+        }
+    },
     "闪_退出武侯演武，闪": {
         "recognition": {
             "type": "OCR",
@@ -1502,1342 +2767,6 @@
             "position": {
                 "x": 7921,
                 "y": 3518
-            }
-        }
-    },
-    "闪_返回列表，调，闪": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    561,
-                    298,
-                    196,
-                    268
-                ],
-                "expected": [
-                    "失败",
-                    "返回列表"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
-        },
-        "post_delay": 1111,
-        "next": [
-            "闪_返回列表，调，闪",
-            "闪_点击开始，闪_副本73"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5526,
-                "y": 1201
-            }
-        }
-    },
-    "闪_返回列表，对局_副本106_副本107": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    561,
-                    298,
-                    196,
-                    268
-                ],
-                "expected": [
-                    "失败",
-                    "返回列表"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
-        },
-        "post_delay": 1111,
-        "next": [
-            "闪_返回列表，对局_副本106_副本107",
-            "闪_点击开始，闪_副本182"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5433,
-                "y": 3993
-            }
-        }
-    },
-    "闪_返回列表，对局_副本106_副本108": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    561,
-                    298,
-                    196,
-                    268
-                ],
-                "expected": [
-                    "失败",
-                    "返回列表"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
-        },
-        "post_delay": 1111,
-        "next": [
-            "闪_返回列表，对局_副本106_副本108",
-            "闪_点击开始，闪_副本73_副本85_副本97"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5623,
-                "y": 3121
-            }
-        }
-    },
-    "闪_返回列表，对局_副本106_副本109": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    561,
-                    298,
-                    196,
-                    268
-                ],
-                "expected": [
-                    "失败",
-                    "返回列表"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
-        },
-        "post_delay": 1111,
-        "next": [
-            "闪_返回列表，对局_副本106_副本109",
-            "闪_点击开始，闪_副本73_副本85"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5640,
-                "y": 2267
-            }
-        }
-    },
-    "闪_出闪_副本170": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    487,
-                    441,
-                    62,
-                    25
-                ],
-                "expected": [
-                    "闪"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_出闪_副本170",
-            "闪_结束_副本194"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3842,
-                "y": 4837
-            }
-        }
-    },
-    "闪_出闪_副本69_副本171": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    487,
-                    441,
-                    62,
-                    25
-                ],
-                "expected": [
-                    "闪"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_出闪_副本69_副本171",
-            "闪_结束_副本77_副本195"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3854,
-                "y": 5874
-            }
-        }
-    },
-    "闪_出闪_副本69_副本81_副本172": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    487,
-                    441,
-                    62,
-                    25
-                ],
-                "expected": [
-                    "闪"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_出闪_副本69_副本81_副本172",
-            "闪_结束_副本77_副本89_副本196"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3838,
-                "y": 6736
-            }
-        }
-    },
-    "闪_出闪_副本69_副本81_副本93_副本173": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    487,
-                    441,
-                    62,
-                    25
-                ],
-                "expected": [
-                    "闪"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_出闪_副本69_副本81_副本93_副本173",
-            "闪_结束_副本77_副本89_副本101_副本197"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3742,
-                "y": 7633
-            }
-        }
-    },
-    "闪_整理手牌，闪_副本174": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    26,
-                    634,
-                    46,
-                    26
-                ],
-                "expected": [
-                    "整理"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    38,
-                    625,
-                    23,
-                    17
-                ]
-            }
-        },
-        "repeat": 3,
-        "next": [
-            "闪_识别调兵遣将_副本198"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3518,
-                "y": 5163
-            }
-        }
-    },
-    "闪_整理手牌，闪_副本71_副本175": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    26,
-                    634,
-                    46,
-                    26
-                ],
-                "expected": [
-                    "整理"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    38,
-                    625,
-                    23,
-                    17
-                ]
-            }
-        },
-        "repeat": 3,
-        "next": [
-            "闪_识别调兵遣将_副本79_副本199"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3534,
-                "y": 6188
-            }
-        }
-    },
-    "闪_整理手牌，闪_副本71_副本83_副本176": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    26,
-                    634,
-                    46,
-                    26
-                ],
-                "expected": [
-                    "整理"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    38,
-                    625,
-                    23,
-                    17
-                ]
-            }
-        },
-        "repeat": 3,
-        "next": [
-            "闪_识别调兵遣将_副本79_副本91_副本200"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3518,
-                "y": 7050
-            }
-        }
-    },
-    "闪_整理手牌，闪_副本71_副本83_副本95_副本177": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    26,
-                    634,
-                    46,
-                    26
-                ],
-                "expected": [
-                    "整理"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    38,
-                    625,
-                    23,
-                    17
-                ]
-            }
-        },
-        "repeat": 3,
-        "next": [
-            "闪_识别调兵遣将_副本79_副本91_副本103_副本201"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3411,
-                "y": 7947
-            }
-        }
-    },
-    "闪_点击2_副本178": {
-        "recognition": {
-            "type": "DirectHit",
-            "param": {
-                "roi": [
-                    1168,
-                    519,
-                    65,
-                    87
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 0,
-        "next": [
-            "闪_确定调_副本186"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3202,
-                "y": 4752
-            }
-        }
-    },
-    "闪_点击2_副本72_副本179": {
-        "recognition": {
-            "type": "DirectHit",
-            "param": {
-                "roi": [
-                    1168,
-                    519,
-                    65,
-                    87
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 0,
-        "next": [
-            "闪_确定调_副本74_副本187"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3214,
-                "y": 5789
-            }
-        }
-    },
-    "闪_点击2_副本72_副本84_副本180": {
-        "recognition": {
-            "type": "DirectHit",
-            "param": {
-                "roi": [
-                    1168,
-                    519,
-                    65,
-                    87
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 0,
-        "next": [
-            "闪_确定调_副本74_副本86_副本188"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3198,
-                "y": 6651
-            }
-        }
-    },
-    "闪_点击2_副本72_副本84_副本96_副本181": {
-        "recognition": {
-            "type": "DirectHit",
-            "param": {
-                "roi": [
-                    1168,
-                    519,
-                    65,
-                    87
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 0,
-        "next": [
-            "闪_确定调_副本74_副本86_副本98_副本189"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3102,
-                "y": 7548
-            }
-        }
-    },
-    "闪_点击开始，闪_副本182": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    878,
-                    315,
-                    27,
-                    22
-                ],
-                "expected": [
-                    "27"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    1098,
-                    602,
-                    154,
-                    29
-                ]
-            }
-        },
-        "post_delay": 2000,
-        "next": [
-            "闪_点击开始，闪_副本182",
-            "闪_整理手牌，闪_副本174"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3202,
-                "y": 5151
-            }
-        }
-    },
-    "闪_点击开始，闪_副本73_副本183": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    878,
-                    315,
-                    27,
-                    22
-                ],
-                "expected": [
-                    "27"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    1098,
-                    602,
-                    154,
-                    29
-                ]
-            }
-        },
-        "post_delay": 2000,
-        "next": [
-            "闪_点击开始，闪_副本73_副本183",
-            "闪_整理手牌，闪_副本71_副本175"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3214,
-                "y": 6188
-            }
-        }
-    },
-    "闪_点击开始，闪_副本73_副本85_副本184": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    878,
-                    315,
-                    27,
-                    22
-                ],
-                "expected": [
-                    "27"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    1098,
-                    602,
-                    154,
-                    29
-                ]
-            }
-        },
-        "post_delay": 2000,
-        "next": [
-            "闪_点击开始，闪_副本73_副本85_副本184",
-            "闪_整理手牌，闪_副本71_副本83_副本176"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3208,
-                "y": 7047
-            }
-        }
-    },
-    "闪_点击开始，闪_副本73_副本85_副本97_副本185": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    878,
-                    315,
-                    27,
-                    22
-                ],
-                "expected": [
-                    "27"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    1098,
-                    602,
-                    154,
-                    29
-                ]
-            }
-        },
-        "post_delay": 2000,
-        "next": [
-            "闪_点击开始，闪_副本73_副本85_副本97_副本185",
-            "闪_整理手牌，闪_副本71_副本83_副本95_副本177"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3102,
-                "y": 7947
-            }
-        }
-    },
-    "闪_确定调_副本186": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    605,
-                    450,
-                    80,
-                    32
-                ],
-                "expected": [
-                    "确定"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 2000,
-        "next": [
-            "闪_出闪_副本170",
-            "闪_识别调兵遣将_副本198"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3522,
-                "y": 4853
-            }
-        }
-    },
-    "闪_确定调_副本74_副本187": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    605,
-                    450,
-                    80,
-                    32
-                ],
-                "expected": [
-                    "确定"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 2000,
-        "next": [
-            "闪_出闪_副本69_副本171",
-            "闪_识别调兵遣将_副本79_副本199"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3534,
-                "y": 5890
-            }
-        }
-    },
-    "闪_确定调_副本74_副本86_副本188": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    605,
-                    450,
-                    80,
-                    32
-                ],
-                "expected": [
-                    "确定"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 2000,
-        "next": [
-            "闪_出闪_副本69_副本81_副本172",
-            "闪_识别调兵遣将_副本79_副本91_副本200"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3518,
-                "y": 6752
-            }
-        }
-    },
-    "闪_确定调_副本74_副本86_副本98_副本189": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    605,
-                    450,
-                    80,
-                    32
-                ],
-                "expected": [
-                    "确定"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 2000,
-        "next": [
-            "闪_出闪_副本69_副本81_副本93_副本173",
-            "闪_识别调兵遣将_副本79_副本91_副本103_副本201"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3422,
-                "y": 7649
-            }
-        }
-    },
-    "闪_确认已选择手牌，点击1_副本190": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    404,
-                    536,
-                    417,
-                    23
-                ],
-                "expected": [
-                    "将"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    604,
-                    107,
-                    79,
-                    94
-                ]
-            }
-        },
-        "post_delay": 500,
-        "next": [
-            "闪_点击2_副本178"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 2882,
-                "y": 4765
-            }
-        }
-    },
-    "闪_确认已选择手牌，点击1_副本76_副本191": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    404,
-                    536,
-                    417,
-                    23
-                ],
-                "expected": [
-                    "将"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    604,
-                    107,
-                    79,
-                    94
-                ]
-            }
-        },
-        "post_delay": 500,
-        "next": [
-            "闪_点击2_副本72_副本179"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 2894,
-                "y": 5802
-            }
-        }
-    },
-    "闪_确认已选择手牌，点击1_副本76_副本88_副本192": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    404,
-                    536,
-                    417,
-                    23
-                ],
-                "expected": [
-                    "将"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    604,
-                    107,
-                    79,
-                    94
-                ]
-            }
-        },
-        "post_delay": 500,
-        "next": [
-            "闪_点击2_副本72_副本84_副本180"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 2878,
-                "y": 6664
-            }
-        }
-    },
-    "闪_确认已选择手牌，点击1_副本76_副本88_副本100_副本193": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    404,
-                    536,
-                    417,
-                    23
-                ],
-                "expected": [
-                    "将"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    604,
-                    107,
-                    79,
-                    94
-                ]
-            }
-        },
-        "post_delay": 500,
-        "next": [
-            "闪_点击2_副本72_副本84_副本96_副本181"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 2782,
-                "y": 7561
-            }
-        }
-    },
-    "闪_结束_副本194": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    774,
-                    450,
-                    106,
-                    31
-                ],
-                "expected": [
-                    "结束出牌"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_结束_副本194",
-            "闪_返回列表，调，闪_副本202"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5122,
-                "y": 4837
-            }
-        }
-    },
-    "闪_结束_副本77_副本195": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    774,
-                    450,
-                    106,
-                    31
-                ],
-                "expected": [
-                    "结束出牌"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_结束_副本77_副本195",
-            "闪_返回列表，对局_副本106_副本109_副本205"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5134,
-                "y": 5874
-            }
-        }
-    },
-    "闪_结束_副本77_副本89_副本196": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    774,
-                    450,
-                    106,
-                    31
-                ],
-                "expected": [
-                    "结束出牌"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_结束_副本77_副本89_副本196",
-            "闪_返回列表，对局_副本106_副本108_副本204"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5118,
-                "y": 6736
-            }
-        }
-    },
-    "闪_结束_副本77_副本89_副本101_副本197": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    774,
-                    450,
-                    106,
-                    31
-                ],
-                "expected": [
-                    "结束出牌"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_结束_副本77_副本89_副本101_副本197",
-            "闪_返回列表，对局_副本106_副本107_副本203"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5022,
-                "y": 7633
-            }
-        }
-    },
-    "闪_识别调兵遣将_副本198": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    401,
-                    527,
-                    442,
-                    62
-                ],
-                "expected": [
-                    "调兵",
-                    "遣将"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_确认已选择手牌，点击1_副本190",
-            "闪_识别调兵遣将_副本198"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3842,
-                "y": 5137
-            }
-        }
-    },
-    "闪_识别调兵遣将_副本79_副本199": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    401,
-                    527,
-                    442,
-                    62
-                ],
-                "expected": [
-                    "调兵",
-                    "遣将"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_确认已选择手牌，点击1_副本76_副本191",
-            "闪_识别调兵遣将_副本79_副本199"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3854,
-                "y": 6174
-            }
-        }
-    },
-    "闪_识别调兵遣将_副本79_副本91_副本200": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    401,
-                    527,
-                    442,
-                    62
-                ],
-                "expected": [
-                    "调兵",
-                    "遣将"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_确认已选择手牌，点击1_副本76_副本88_副本192",
-            "闪_识别调兵遣将_副本79_副本91_副本200"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3838,
-                "y": 7036
-            }
-        }
-    },
-    "闪_识别调兵遣将_副本79_副本91_副本103_副本201": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    401,
-                    527,
-                    442,
-                    62
-                ],
-                "expected": [
-                    "调兵",
-                    "遣将"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "闪_确认已选择手牌，点击1_副本76_副本88_副本100_副本193",
-            "闪_识别调兵遣将_副本79_副本91_副本103_副本201"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3742,
-                "y": 7933
-            }
-        }
-    },
-    "闪_返回列表，调，闪_副本202": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    561,
-                    298,
-                    196,
-                    268
-                ],
-                "expected": [
-                    "失败",
-                    "返回列表"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
-        },
-        "post_delay": 1111,
-        "next": [
-            "闪_返回列表，调，闪_副本202",
-            "闪_点击开始，闪_副本73_副本183"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5416,
-                "y": 4816
-            }
-        }
-    },
-    "闪_返回列表，对局_副本106_副本107_副本203": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    561,
-                    298,
-                    196,
-                    268
-                ],
-                "expected": [
-                    "失败",
-                    "返回列表"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
-        },
-        "post_delay": 1111,
-        "next": [
-            "闪_返回列表，对局_副本106_副本107_副本203",
-            "闪_退出解卦挑战，闪"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5330,
-                "y": 7600
-            }
-        }
-    },
-    "闪_返回列表，对局_副本106_副本108_副本204": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    561,
-                    298,
-                    196,
-                    268
-                ],
-                "expected": [
-                    "失败",
-                    "返回列表"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
-        },
-        "post_delay": 1111,
-        "next": [
-            "闪_返回列表，对局_副本106_副本108_副本204",
-            "闪_点击开始，闪_副本73_副本85_副本97_副本185"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5513,
-                "y": 6736
-            }
-        }
-    },
-    "闪_返回列表，对局_副本106_副本109_副本205": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    561,
-                    298,
-                    196,
-                    268
-                ],
-                "expected": [
-                    "失败",
-                    "返回列表"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
-        },
-        "post_delay": 1111,
-        "next": [
-            "闪_返回列表，对局_副本106_副本109_副本205",
-            "闪_点击开始，闪_副本73_副本85_副本184"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5530,
-                "y": 5882
             }
         }
     }

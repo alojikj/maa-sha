@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786376787152,
+            "lastSyncTime": 1786588053929,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\通用关卡查找模板.json",
             "savedViewport": {
-                "x": -1889,
-                "y": -104,
-                "zoom": 1
+                "x": -2562,
+                "y": -416,
+                "zoom": 0.86
             },
             "filename": "通用关卡查找模板",
             "version": "v1.7.6"
@@ -594,27 +594,18 @@
             "type": "OCR",
             "param": {
                 "roi": [
-                    561,
-                    298,
-                    196,
-                    268
+                    362,
+                    294,
+                    549,
+                    262
                 ],
                 "expected": [
-                    "失败",
                     "返回列表"
                 ]
             }
         },
         "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
+            "type": "Click"
         },
         "post_delay": 1111,
         "next": [
