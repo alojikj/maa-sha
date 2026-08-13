@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786598951933,
+            "lastSyncTime": 1786603636257,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\自动刷军令状.json",
             "savedViewport": {
-                "x": -2296,
-                "y": 328,
-                "zoom": 0.88
+                "x": -2483,
+                "y": 1466,
+                "zoom": 0.67
             },
             "filename": "自动刷军令状",
             "version": "v1.7.6"
@@ -273,8 +273,8 @@
             "烽火狼烟，火字重复",
             "阵前对决，阵字重复",
             "多多益善",
-            "识破",
-            "破阵卸甲，阵字重复",
+            "识破，破字重复",
+            "破阵卸甲，阵字重复，破字重复",
             "调兵",
             "易",
             "怒"
@@ -767,7 +767,7 @@
             }
         }
     },
-    "破阵卸甲，阵字重复": {
+    "破阵卸甲，阵字重复，破字重复": {
         "recognition": {
             "type": "OCR",
             "param": {
@@ -778,7 +778,6 @@
                     40
                 ],
                 "expected": [
-                    "破",
                     "卸",
                     "甲"
                 ]
@@ -933,7 +932,7 @@
             }
         }
     },
-    "识破": {
+    "识破，破字重复": {
         "recognition": {
             "type": "OCR",
             "param": {
@@ -944,8 +943,7 @@
                     40
                 ],
                 "expected": [
-                    "识",
-                    "破"
+                    "识"
                 ]
             }
         },
