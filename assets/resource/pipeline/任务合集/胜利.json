@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786589618059,
+            "lastSyncTime": 1786607690477,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\胜利.json",
             "savedViewport": {
-                "x": 774,
-                "y": -165,
-                "zoom": 0.92
+                "x": -55,
+                "y": -90,
+                "zoom": 0.22
             },
             "filename": "胜利",
             "version": "v1.7.6"
@@ -1663,27 +1663,18 @@
             "type": "OCR",
             "param": {
                 "roi": [
-                    561,
-                    298,
-                    196,
-                    268
+                    362,
+                    294,
+                    549,
+                    262
                 ],
                 "expected": [
-                    "失败",
                     "返回列表"
                 ]
             }
         },
         "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
+            "type": "Click"
         },
         "post_delay": 1111,
         "next": [
@@ -1702,27 +1693,18 @@
             "type": "OCR",
             "param": {
                 "roi": [
-                    561,
-                    298,
-                    196,
-                    268
+                    362,
+                    294,
+                    549,
+                    262
                 ],
                 "expected": [
-                    "失败",
                     "返回列表"
                 ]
             }
         },
         "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
+            "type": "Click"
         },
         "post_delay": 1111,
         "next": [
@@ -1741,27 +1723,18 @@
             "type": "OCR",
             "param": {
                 "roi": [
-                    561,
-                    298,
-                    196,
-                    268
+                    362,
+                    294,
+                    549,
+                    262
                 ],
                 "expected": [
-                    "失败",
                     "返回列表"
                 ]
             }
         },
         "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
+            "type": "Click"
         },
         "post_delay": 1111,
         "next": [
@@ -1780,27 +1753,18 @@
             "type": "OCR",
             "param": {
                 "roi": [
-                    561,
-                    298,
-                    196,
-                    268
+                    362,
+                    294,
+                    549,
+                    262
                 ],
                 "expected": [
-                    "失败",
                     "返回列表"
                 ]
             }
         },
         "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    577,
-                    510,
-                    129,
-                    31
-                ]
-            }
+            "type": "Click"
         },
         "post_delay": 1111,
         "next": [
