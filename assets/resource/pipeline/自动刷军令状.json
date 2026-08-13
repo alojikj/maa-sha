@@ -3,16 +3,30 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786603636257,
+            "lastSyncTime": 1786598951933,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\自动刷军令状.json",
             "savedViewport": {
-                "x": -2483,
-                "y": 1466,
+                "x": -2606,
+                "y": 99,
                 "zoom": 0.67
             },
             "filename": "自动刷军令状",
             "version": "v1.7.6"
+        }
+    },
+    "$__mpe_external_烈火_胜利_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5683,
+                "y": 556
+            },
+            "extra_positions": [
+                {
+                    "x": 4819,
+                    "y": 497
+                }
+            ]
         }
     },
     "$__mpe_external_伤害_退出任务_自动刷军令状": {
@@ -71,14 +85,6 @@
             }
         }
     },
-    "$__mpe_external_烈火_退出任务_自动刷军令状": {
-        "$__mpe_code": {
-            "position": {
-                "x": 4819,
-                "y": 497
-            }
-        }
-    },
     "$__mpe_external_烽火_退出任务_自动刷军令状": {
         "$__mpe_code": {
             "position": {
@@ -98,8 +104,8 @@
     "$__mpe_external_胜利_退出任务_自动刷军令状": {
         "$__mpe_code": {
             "position": {
-                "x": 5689,
-                "y": 560
+                "x": 5868,
+                "y": 436
             }
         }
     },
@@ -731,7 +737,7 @@
             }
         },
         "next": [
-            "烈火_退出任务"
+            "烈火_胜利_退出任务"
         ],
         "$__mpe_code": {
             "position": {
@@ -897,7 +903,7 @@
             }
         },
         "next": [
-            "胜利_退出任务"
+            "烈火_胜利_退出任务"
         ],
         "$__mpe_code": {
             "position": {

@@ -1,21 +1,21 @@
 {
-    "$__mpe_config_烈火焚城": {
+    "$__mpe_config_烈火焚城_胜利": {
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786591299681,
+            "lastSyncTime": 1786609985966,
             "isModifiedExternally": false,
-            "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\烈火焚城.json",
+            "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\烈火焚城_胜利.json",
             "savedViewport": {
-                "x": 917,
-                "y": -376,
-                "zoom": 1.22
+                "x": 443,
+                "y": 244,
+                "zoom": 0.29
             },
-            "filename": "烈火焚城",
+            "filename": "烈火焚城_胜利",
             "version": "v1.7.6"
         }
     },
-    "$__mpe_external_大厅界面_烈火焚城": {
+    "$__mpe_external_大厅界面_烈火焚城_胜利": {
         "$__mpe_code": {
             "position": {
                 "x": 7314,
@@ -1886,7 +1886,7 @@
             }
         }
     },
-    "烈火_退出任务": {
+    "烈火_胜利_退出任务": {
         "recognition": {
             "type": "OCR",
             "param": {
@@ -1914,7 +1914,7 @@
         },
         "post_delay": 1111,
         "next": [
-            "烈火_退出任务",
+            "烈火_胜利_退出任务",
             "烈火_进入战役"
         ],
         "$__mpe_code": {
