@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786616241663,
+            "lastSyncTime": 1786775922891,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\烈火焚城_胜利.json",
             "savedViewport": {
-                "x": -4501,
-                "y": -1903,
-                "zoom": 0.86
+                "x": -2592,
+                "y": -323,
+                "zoom": 0.75
             },
             "filename": "烈火焚城_胜利",
             "version": "v1.7.6"
@@ -20,6 +20,17 @@
             "position": {
                 "x": 7314,
                 "y": 2790
+            }
+        }
+    },
+    "测试1": {
+        "next": [
+            "烈火_点击开始"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2821,
+                "y": 857
             }
         }
     },
@@ -2062,6 +2073,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 2000,
         "next": [
             "烈火_选择闪",
             "烈火_识别烈火焚城"
@@ -2092,6 +2104,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 2000,
         "next": [
             "烈火_选择闪_副本334",
             "烈火_识别烈火焚城_副本336"
@@ -2122,6 +2135,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 2000,
         "next": [
             "烈火_选择闪_副本334_副本358",
             "烈火_识别烈火焚城_副本336_副本360"
@@ -2152,6 +2166,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 2000,
         "next": [
             "烈火_选择闪_副本346",
             "烈火_识别烈火焚城_副本348"
@@ -2160,17 +2175,6 @@
             "position": {
                 "x": 4399,
                 "y": 2022
-            }
-        }
-    },
-    "测试1": {
-        "next": [
-            "烈火_点击开始"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 2821,
-                "y": 857
             }
         }
     }

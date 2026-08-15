@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786622324945,
+            "lastSyncTime": 1786775680486,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\先拔头筹.json",
             "savedViewport": {
-                "x": -2123,
-                "y": -223,
-                "zoom": 0.57
+                "x": -1479,
+                "y": -165,
+                "zoom": 0.49
             },
             "filename": "先拔头筹",
             "version": "v1.7.6"
@@ -1038,6 +1038,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 2000,
         "next": [
             "先拔_选择闪",
             "先拔_结束出牌"
@@ -1068,6 +1069,7 @@
         "action": {
             "type": "Click"
         },
+        "post_delay": 2000,
         "next": [
             "先拔_选择闪_副本197",
             "先拔_结束出牌_副本200"
@@ -1076,6 +1078,17 @@
             "position": {
                 "x": 4419,
                 "y": 1439
+            }
+        }
+    },
+    "测试1": {
+        "next": [
+            "先拔_点击开始"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3206,
+                "y": 409
             }
         }
     }
