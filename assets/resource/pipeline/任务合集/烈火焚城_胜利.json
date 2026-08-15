@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786775922891,
+            "lastSyncTime": 1786777469591,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\烈火焚城_胜利.json",
             "savedViewport": {
-                "x": -2592,
-                "y": -323,
-                "zoom": 0.75
+                "x": -2094,
+                "y": -387,
+                "zoom": 0.76
             },
             "filename": "烈火焚城_胜利",
             "version": "v1.7.6"
@@ -20,17 +20,6 @@
             "position": {
                 "x": 7314,
                 "y": 2790
-            }
-        }
-    },
-    "测试1": {
-        "next": [
-            "烈火_点击开始"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 2821,
-                "y": 857
             }
         }
     },
