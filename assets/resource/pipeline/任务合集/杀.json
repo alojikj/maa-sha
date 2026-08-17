@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786598183931,
+            "lastSyncTime": 1786957784613,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\任务合集\\杀.json",
             "savedViewport": {
-                "x": 532,
-                "y": -142,
-                "zoom": 0.8
+                "x": -2589,
+                "y": -309,
+                "zoom": 0.86
             },
             "filename": "杀",
             "version": "v1.7.6"
@@ -627,10 +627,10 @@
             "type": "Click",
             "param": {
                 "target": [
-                    602,
-                    449,
-                    67,
-                    33
+                    619,
+                    458,
+                    43,
+                    13
                 ]
             }
         },
@@ -665,10 +665,10 @@
             "type": "Click",
             "param": {
                 "target": [
-                    602,
-                    449,
-                    67,
-                    33
+                    619,
+                    458,
+                    43,
+                    13
                 ]
             }
         },
@@ -893,10 +893,10 @@
             "type": "Click",
             "param": {
                 "target": [
-                    602,
-                    449,
-                    67,
-                    33
+                    619,
+                    458,
+                    43,
+                    13
                 ]
             }
         },
