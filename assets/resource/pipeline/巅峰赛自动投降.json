@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1787039141784,
+            "lastSyncTime": 1787041878919,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\巅峰赛自动投降.json",
             "savedViewport": {
-                "x": 100,
-                "y": 164,
-                "zoom": 0.43
+                "x": -604,
+                "y": -40,
+                "zoom": 0.57
             },
             "filename": "巅峰赛自动投降",
             "version": "v1.7.6"
@@ -74,44 +74,15 @@
             }
         }
     },
-    "巅峰赛准备投降": {
-        "recognition": {
-            "type": "TemplateMatch",
-            "param": {
-                "roi": [
-                    1200,
-                    51,
-                    63,
-                    75
-                ],
-                "template": [
-                    "巅峰赛设置.png"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "投降",
-            "巅峰赛准备投降"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 652,
-                "y": 772
-            }
-        }
-    },
     "巅峰赛下一步": {
         "recognition": {
             "type": "OCR",
             "param": {
                 "roi": [
-                    578,
-                    614,
-                    115,
-                    49
+                    579,
+                    616,
+                    108,
+                    46
                 ],
                 "expected": [
                     "下一步"
@@ -156,6 +127,35 @@
             "position": {
                 "x": 3177,
                 "y": 1211
+            }
+        }
+    },
+    "巅峰赛准备投降": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "roi": [
+                    1200,
+                    54,
+                    67,
+                    66
+                ],
+                "template": [
+                    "巅峰赛局内设置.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "投降",
+            "巅峰赛准备投降"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 652,
+                "y": 772
             }
         }
     },
@@ -291,10 +291,10 @@
             "type": "TemplateMatch",
             "param": {
                 "roi": [
-                    1207,
-                    282,
-                    52,
-                    49
+                    1213,
+                    284,
+                    42,
+                    43
                 ],
                 "template": [
                     "投降.png"
@@ -320,8 +320,8 @@
             "type": "OCR",
             "param": {
                 "roi": [
-                    516,
-                    442,
+                    515,
+                    440,
                     55,
                     34
                 ],
@@ -416,9 +416,9 @@
             "param": {
                 "roi": [
                     577,
-                    495,
-                    122,
-                    103
+                    496,
+                    129,
+                    100
                 ],
                 "expected": [
                     "白"
@@ -429,10 +429,10 @@
             "type": "Click",
             "param": {
                 "target": [
-                    766,
-                    488,
-                    295,
-                    170
+                    780,
+                    496,
+                    238,
+                    147
                 ]
             }
         },
@@ -477,20 +477,14 @@
         }
     },
     "选将上1": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": ""
-            }
-        },
         "action": {
             "type": "Click",
             "param": {
                 "target": [
-                    317,
-                    159,
-                    29,
-                    106
+                    329,
+                    155,
+                    42,
+                    81
                 ]
             }
         },
@@ -505,20 +499,14 @@
         }
     },
     "选将上2": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": ""
-            }
-        },
         "action": {
             "type": "Click",
             "param": {
                 "target": [
-                    456,
-                    158,
-                    29,
-                    109
+                    458,
+                    163,
+                    42,
+                    77
                 ]
             }
         },
@@ -533,20 +521,14 @@
         }
     },
     "选将上3": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": ""
-            }
-        },
         "action": {
             "type": "Click",
             "param": {
                 "target": [
-                    594,
-                    159,
-                    29,
-                    92
+                    597,
+                    161,
+                    37,
+                    64
                 ]
             }
         },
@@ -561,20 +543,14 @@
         }
     },
     "选将上4": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": ""
-            }
-        },
         "action": {
             "type": "Click",
             "param": {
                 "target": [
-                    730,
-                    161,
-                    32,
-                    93
+                    737,
+                    163,
+                    45,
+                    68
                 ]
             }
         },
@@ -589,20 +565,14 @@
         }
     },
     "选将上5": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": ""
-            }
-        },
         "action": {
             "type": "Click",
             "param": {
                 "target": [
-                    869,
-                    156,
-                    26,
-                    96
+                    873,
+                    159,
+                    50,
+                    80
                 ]
             }
         },
@@ -673,6 +643,17 @@
             "position": {
                 "x": 332,
                 "y": 491
+            }
+        }
+    },
+    "测试": {
+        "next": [
+            "巅峰赛入口"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2917,
+                "y": 1317
             }
         }
     }
