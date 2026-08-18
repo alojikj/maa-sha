@@ -3,30 +3,16 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1786598951933,
+            "lastSyncTime": 1787039136311,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\自动刷军令状.json",
             "savedViewport": {
-                "x": -2606,
-                "y": 99,
-                "zoom": 0.67
+                "x": -300,
+                "y": 150,
+                "zoom": 0.57
             },
             "filename": "自动刷军令状",
             "version": "v1.7.6"
-        }
-    },
-    "$__mpe_external_烈火_胜利_退出任务_自动刷军令状": {
-        "$__mpe_code": {
-            "position": {
-                "x": 5683,
-                "y": 556
-            },
-            "extra_positions": [
-                {
-                    "x": 4819,
-                    "y": 497
-                }
-            ]
         }
     },
     "$__mpe_external_伤害_退出任务_自动刷军令状": {
@@ -83,6 +69,20 @@
                 "x": 5730,
                 "y": 1393
             }
+        }
+    },
+    "$__mpe_external_烈火_胜利_退出任务_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5683,
+                "y": 556
+            },
+            "extra_positions": [
+                {
+                    "x": 4819,
+                    "y": 497
+                }
+            ]
         }
     },
     "$__mpe_external_烽火_退出任务_自动刷军令状": {
@@ -1234,6 +1234,26 @@
             "position": {
                 "x": 2367,
                 "y": 398
+            }
+        }
+    },
+    "$__mpe_external_巅峰赛入口_自动刷军令状": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1319,
+                "y": 365
+            }
+        }
+    },
+    "统一入口": {
+        "next": [
+            "大厅界面",
+            "巅峰赛入口"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 843,
+                "y": 165
             }
         }
     }
