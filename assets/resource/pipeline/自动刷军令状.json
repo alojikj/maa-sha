@@ -3,13 +3,13 @@
         "$__mpe_code": {
             "prefix": "",
             "coordinateMode": "absolute-v1",
-            "lastSyncTime": 1787039136311,
+            "lastSyncTime": 1787055703434,
             "isModifiedExternally": false,
             "filePath": "E:\\MaaWorkspace\\maa-sha\\assets\\resource\\pipeline\\自动刷军令状.json",
             "savedViewport": {
-                "x": -300,
-                "y": 150,
-                "zoom": 0.57
+                "x": -1415,
+                "y": 180,
+                "zoom": 0.75
             },
             "filename": "自动刷军令状",
             "version": "v1.7.6"
@@ -497,9 +497,16 @@
         "recognition": {
             "type": "TemplateMatch",
             "param": {
+                "roi": [
+                    561,
+                    558,
+                    603,
+                    121
+                ],
                 "template": [
                     "大厅黑.png",
-                    "大厅.png"
+                    "大厅.png",
+                    "大厅亮.png"
                 ]
             }
         },
